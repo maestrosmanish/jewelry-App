@@ -18,11 +18,12 @@ import statusRouter from "./routes/statusRoute/statusRoutes.js";
 dotenv.config();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+const dev = process.env.NODE_ENV !== "production";
 
 const prisma = new PrismaClient();
 // backend/index.js
 const nextApp = next({
-  dev: true,
+  dev,
   dir: path.join(__dirname, "..")
 });
 
