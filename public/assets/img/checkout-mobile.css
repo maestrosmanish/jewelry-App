@@ -1,0 +1,218 @@
+.checkout-onepage-index .form-list label.required em{
+    position: static;
+  }
+  
+@media screen and (max-width: 767px) {
+.checkout-onepage-index .add-gift{
+    margin-bottom: 35px;
+}
+    .mb10 {
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+
+    /* start of css to remove the checkout footer */
+    .checkout-footer-container {
+        display: none !important;
+    }
+
+    /* end of css to remove the checkout footer */
+
+    /* start of css login section width in checkout page */
+
+    .cus_register {
+        padding: 0px !important;
+    }
+
+    /* end  of css login section width in checkout page */
+
+
+    /* start of css login password field width in checkout page */
+
+    #login-password-checkout-page {
+        margin: 0px 20px !important;
+    }
+
+    /* end of css login password field width in checkout page */
+
+    /* start of css for product items */
+    .cart_content .mini-products-list li {
+        border-top: 1px solid rgba(112, 112, 112, 0.3);
+        margin: 0px 15px !important;
+        padding: 10px 0px 10px 0px !important;
+    }
+
+    .cart_content .product-name {
+        margin: 0px 0px 0px 0px !important;
+        padding: 0px 0px 0px 0px !important;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        color: #000000 !important;
+    }
+
+    .cart_content .mini-products-list li.last {
+        border-bottom: 1px solid rgba(112, 112, 112, 0.3);
+    }
+
+    /* end of css for product items */
+
+    /* start of css for the checkout page total */
+
+    #shopping-cart-totals-table tbody tr .a-right,
+    #shopping-cart-totals-table tbody tr .a-left {
+        font-family: 'Muli', sans-serif !important;
+        font-size: 14px !important;
+        font-weight: 600;
+        color: #000000 !important;
+    }
+
+    .col-right table td strong {
+        font-family: 'Muli', sans-serif !important;
+        font-size: 14px !important;
+        font-weight: 700 !important;
+        color: #000000 !important;
+    }
+
+    .col-right table {
+        float: left;
+        margin: 0px 16px 33px 23px !important;
+        width: 90% !important;
+    }
+
+    /* end of css for the checkout page total */
+
+
+    .checkout_header .checkout_logo {
+        background: #DFDFDF !important;
+        padding-bottom: 0px !important;
+    }
+
+    .page.m-sticky #header {
+        padding-top: 40px !important;
+    }
+
+
+
+    .checkout_header {
+        height: 60px !important;
+        position: absolute;
+        width: 100%;
+    }
+
+    .checkout_title {
+        margin-top: 100px;
+    }
+
+    .mini-products-list .product-image {
+        float: left;
+        border: 0.5px solid #707070 !important;
+        clear: both;
+        height: 52px !important;
+        width: 52px !important;
+    }
+
+    .checkout-logo {
+        width: 103px !important;
+        height: 60px !important;
+        margin-left: -135px !important;
+    }
+
+    .checkout-logo-image {
+        width: 103px;
+        height: 31px;
+        position: absolute;
+        left: 58px !important;
+        top: 15px !important;
+    }
+
+    .mobile-checkout-call-icon {
+        position: absolute !important;
+        right: 22px !important;
+        top: 20px !important;
+        width: 20px;
+        height: 20px;
+    }
+
+    .mobile-checkout-back-icon {
+        position: absolute !important;
+        left: 18px !important;
+        top: 20px !important;
+        width: 20px;
+        height: 20px;
+    }
+
+    .cart_content .block-subtitle {
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        font-family: 'Muli', sans-serif !important;
+        color: #000000 !important;
+        margin: 0px 0px 34px 21px !important;
+        padding: 0px !important;
+    }
+
+    .checkout-footer-container {
+        background: #F3F3F3 !important;
+        min-height: 60px;
+        margin-top: 20px;
+    }
+    .checkout-onepage-index .cart_content .product-name a{
+        color: #000000;
+        font-weight: bold;
+    }
+    .checkout-onepage-index #checkout-step-billing .validation-advice{
+        position: static;
+        min-height: auto !important;
+        margin: auto !important;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 767px) {
+
+    .checkout-onepage-index .col-right {
+        width: 380px !important;
+        background: #ffffff !important;
+        margin: 0px 17px;
+        margin-bottom: 40px !important;
+        padding: 0px !important;
+        -webkit-box-shadow: 1px 1px 2px 2px #E7EAF0;
+        box-shadow: 1px 1px 2px 2px #E7EAF0;
+    }
+
+    .mob-checkout-product {
+        width: 70% !important;
+        margin: 0px 0px 0px 20px !important;
+        padding: 0px 0px 0px 0px !important;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+
+    /* start  of css for the product name in min-width 300px and max-width 400px */
+    .cart_content .product-name {
+        margin: 0px 0px 0px 0px !important;
+        padding: 0px 0px 0px 0px !important;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 12px !important;
+        font-weight: 600 !important;
+        color: #000000 !important;
+    }
+
+    /* end  of css for the product name in min-width 300px and max-width 400px */
+
+    .checkout-onepage-index .col-right {
+        width: 90% !important;
+        background: #ffffff !important;
+        margin: 0px 17px;
+        margin-bottom: 40px !important;
+        padding: 0px !important;
+        -webkit-box-shadow: 1px 1px 2px 2px #E7EAF0;
+        box-shadow: 1px 1px 2px 2px #E7EAF0;
+    }
+
+    .mob-checkout-product {
+        width: 76% !important;
+        margin: 0px 0px 0px 10px !important;
+        padding: 0px 0px 0px 0px !important;
+    }
+}

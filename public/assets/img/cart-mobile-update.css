@@ -1,0 +1,942 @@
+.checkout-cart-index .cart .data-table.cart-table .shopping_cart_tables .cart_product_img .product-name.visible-xs.mobile_product_name .cart_subtotal_extra span.cart_discount_price .price{
+    text-decoration: line-through;
+    text-decoration-color: #bfbfbf;
+    color: #bfbfbf;
+}
+
+@media screen and (min-width:767px) {
+
+    .cart-contact-box {
+        display: none;
+    }
+
+    .cart-malabar-promises-box {
+        display: none;
+    }
+
+    .cart-payment-methods-accepted {
+        display: none;
+    }
+
+    .cart-offer-banner {
+        display: none;
+    }
+
+    .products-in-cart-quantity {
+        display: none;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .checkout-cart-index .cart-contact-phone-icon{
+        position: absolute;
+        right: 15px;
+        bottom: 5px;
+    }
+    .checkout-cart-index .cart-contact-box-text{
+        position: relative;
+    }
+    .checkout-cart-index .cart .cart-collaterals .row form#discount-coupon-form .discount-form.f-left .f-left.voucherbox #advice-required-entry-coupon_code{
+        position: static;
+        text-align: left;
+    }
+    .checkout-cart-index .cart .data-table.cart-table .shopping_cart_tables .cart_product_img .product-name.visible-xs.mobile_product_name .cart_product_details .cart_sku {
+        margin-top: 5px;
+    }
+    .cart-page-ring-size-container {
+        width: 50% !important;
+        float: right !important;
+    }
+    .checkout-cart-index .cart-quantity-container .attributevalue input.qty {
+        width: 40px;
+        text-align: center;
+        min-height: 20px;
+        line-height: 14px;
+        font-family: 'Muli';
+        font-weight: bold;
+        border-radius: 3px;
+    }
+    .cart-malabar-promises-item {
+        width: 30%;
+        float: left;
+        height: 91px;
+        margin: 20px 6px 40px 6px;
+    }
+
+    .cart-page-row-1,
+    .cart-page-row-2,
+    .cart-page-row-3 {
+        width: 100%;
+        height: 100%;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .cart-malabar-promises-value {
+        color: #000000 !important;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 14px !important;
+        font-weight: 400 !important;
+    }
+
+    .discount-form {
+        width: 100% !important;
+    }
+
+    .malabaar-promises-icon-container {
+        width: 110px !important;
+        height: 91px;
+        background: #E4E4E4;
+        margin: 0px 0px 0px 0px !important;
+        padding: 0px !important;
+    }
+
+    .cart-page-ring-size {
+        float: left;
+        width: 50%;
+        padding: 0px;
+        margin-top: 8px;
+        color: #000000;
+        font-family: 'Muli', sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+
+    }
+
+    .ring-size-qty-one {
+        display: inline-block !important;
+        text-align: left !important;
+        width: 40px !important;
+        color: #000000 !important;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 12px !important;
+        font-weight: 700 !important;
+        border: 1px solid #E4E4E4;
+        border-radius: 3px;
+        height: 20px !important;
+        padding-left: 10px;
+        background: url(../../images/mobile-cart-page-icons/down-arrow.svg) 0 0 no-repeat !important;
+        background-size: 18px 18px !important;
+        background-position: 24px -1px !important;
+        margin-top: 8px !important;
+        background-image: none !important;
+    }
+
+    .cart-page-order-summary-title {
+        font-family: 'Muli', sans-serif !important;
+        color: #000000 !important;
+        font-size: 14px !important;
+        font-weight: 700 !important;
+        margin-top: 20px !important;
+    }
+
+    .checkout-cart-index .mobile_cartimage img {
+        max-width: 124px !important;
+        width: 124px !important;
+        height: 124px !important;
+    }
+
+    .cart_product_img {
+        margin-bottom: 0px;
+    }
+
+    .grandtotal-products-in-cart {
+        font-size: 14px;
+        font-family: 'Muli', sans-serif;
+        font-weight: bold;
+        width: 40%;
+        float: right;
+        padding: 0px;
+        text-align: right;
+        margin-top: -31px;
+        margin-right: 12px;
+    }
+
+    .discount_appcart,
+    .checkout-cart-index .payment-totals-table #shopping-cart-totals-table tbody .a-right strong,
+    .checkout-cart-index .payment-totals-table #shopping-cart-totals-table tbody .a-right {
+        text-align: left !important;
+        font-family: 'Muli', sans-serif !important;
+        color: #000000 !important;
+        font-size: 14px !important;
+        font-weight: 600 !important;
+    }
+
+    .checkout-cart-index .payment-totals-table #shopping-cart-totals-table tfoot .a-right strong,
+    .checkout-cart-index .payment-totals-table #shopping-cart-totals-table tfoot .a-right {
+        text-align: left !important;
+        font-family: 'Muli', sans-serif !important;
+        color: #000000 !important;
+        font-size: 14px !important;
+        font-weight: bold !important;
+    }
+
+    .checkout-cart-index .payment-totals-table #shopping-cart-totals-table tfoot .a-left strong,
+    .checkout-cart-index .payment-totals-table #shopping-cart-totals-table tfoot .a-left {
+        text-align: right !important;
+        font-family: 'Muli', sans-serif !important;
+        color: #000000 !important;
+        font-size: 14px !important;
+        font-weight: bold !important;
+    }
+    .checkout-cart-index .payment-totals-table #shopping-cart-totals-table tbody .a-left strong,
+    .checkout-cart-index .payment-totals-table #shopping-cart-totals-table tbody .a-left {
+        text-align: right !important;
+        font-family: 'Muli', sans-serif !important;
+        color: #000000 !important;
+        font-size: 14px !important;
+        font-weight: 600 !important;
+    }
+    .checkout-cart-index .cart .success-msg ul li span {
+        background-color: #F3F3F3 !important;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 14px !important;
+        font-weight: normal !important;
+        color: #000000 !important;
+    }
+
+    .checkout-cart-index .success-msg {
+        background-color: #F3F3F3 !important;
+    }
+
+    .validation-advice {
+        clear: both !important;
+        min-height: 13px !important;
+        margin-bottom: -46px !important;
+        padding-left: 17px !important;
+        font-size: 11px !important;
+        font-weight: bold !important;
+        line-height: 13px !important;
+        color: #000000;
+    }
+
+    /* start of css for the coupon code message */
+    .checkout-cart-index .messages {
+        margin: 10px !important;
+        padding: 10px !important;
+        background-color: #F3F3F3 !important;
+    }
+
+    /* end of css for the coupon code message */
+
+    .checkout-cart-index .payment-totals-table {
+        background: #fff;
+        padding: 0px 10px 0px 18px !important;
+        border: 1px solid #eeeeee;
+        border-radius: 1px !important;
+        -webkit-box-shadow: 0px 0px 1px 1px rgba(178, 178, 178, 0.42) !important;
+        box-shadow: 0px 0px 1px 1px rgba(178, 178, 178, 0.42) !important;
+    }
+
+    /* css for the coupon code box  */
+    .discount-box {
+        width: 92% !important;
+        background: #fff !important;
+        margin: 15px 15px !important;
+        padding: 10px 10px !important;
+        border: 1px solid #eeeeee !important;
+        border-radius: 5px !important;
+        -webkit-box-shadow: 1px 4px 5px -1px rgba(178, 178, 178, 0.42) !important;
+        box-shadow: 1px 4px 5px -1px rgba(178, 178, 178, 0.42) !important;
+        /* background: url(../../images/mobile-cart-page-icons/down-arrow.svg) 0 0 no-repeat !important;
+        background-size: 18px 18px !important;
+        background-position: 341px 12px !important; */
+    }
+
+    /* css for the coupon code box  */
+
+    .checkout-cart-index .mobile_cartimage {
+        display: inline-block;
+        width: 35%;
+        padding-left: 15px !important;
+        vertical-align: top;
+
+    }
+
+    /* css for the coupon code label  */
+    .checkout-cart-index .giftlabel:before {}
+
+    .giftlabel {
+        font-family: 'Muli', sans-serif !important;
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        color: #000000 !important;
+        background: url(../../images/mobile-cart-page-icons/coupon-code-icon.svg) 0 0 no-repeat !important;
+        background-size: 18px 18px !important;
+        background-position: 0px 0px !important;
+        padding-left: 26px !important;
+        left: 0px !important;
+        margin-right: 150px !important;
+    }
+
+    /* css for the coupon code label  */
+
+    .checkout-cart-index .mobile_product_name {
+        display: inline-block !important;
+        width: 63%;
+        vertical-align: top;
+        padding: 0px 0px 0px 15px !important;
+        text-align: left;
+    }
+
+    .cart-smartbuy {
+        display: none !important;
+    }
+
+    .Quantity {
+        padding: 0px !important;
+    }
+
+    .show-cart-product-details-box a {
+        text-decoration: none !important;
+    }
+
+
+
+    .show-cart-product-details {
+        font-family: 'Muli', sans-serif !important;
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        text-decoration: none !important;
+        color: #000000 !important;
+        padding-top: 7px !important;
+        margin: 0px !important;
+        padding-bottom: 7px;
+    }
+
+    .show-cart-product-details a {
+        font-family: 'Muli', sans-serif !important;
+        font-size: 14px !important;
+        font-weight: 600 !important;
+    }
+
+    .products-in-cart-number {
+        color: #000;
+        font-family: 'Muli', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 0px;
+        margin-left: 14px;
+    }
+
+
+    /* start of css to remove border and aligning the product details section */
+    .cart .page-title .cart-page-title {
+        display: inline !important;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 14px !important;
+        font-weight: 700 !important;
+    }
+
+    /* end of css to remove border within the product details section */
+    /* start of css to remove border and aligning the product details section */
+    .checkout-cart-index .cart_product_info.clear-fix {
+        width: 100% !important;
+        border-top: 0px solid rgba(166, 148, 105, 0.5) !important;
+        margin: 0px 0px 0px 0px !important;
+        padding: 15px 17px 29px 14px !important;
+        text-align: left !important;
+    }
+
+    /* end of css to remove border within the product details section */
+    .borderquantitysmart {
+        border-bottom: 0px solid rgba(166, 148, 105, 0.5) !important;
+        margin-bottom: 0px !important;
+    }
+
+    /* start of css for the quantity text mobile cart page */
+    .checkout-cart-index .mobile_quantity {
+        display: inline-block;
+        width: 25% !important;
+        font-family: 'Muli', sans-serif;
+        font-size: 12px !important;
+        font-weight: 600 !important;
+        margin-top: 8px;
+    }
+
+    /* end of css for the quantity text mobile cart page  */
+
+
+    /* start of css for the quantity number in mobile cart page */
+
+    .checkout-cart-index .qty_one {
+        display: inline-block !important;
+        text-align: left !important;
+        width: 40px !important;
+        color: #000000 !important;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 12px !important;
+        font-weight: 700 !important;
+        border: 1px solid #E4E4E4;
+        border-radius: 3px;
+        height: 20px !important;
+        padding-left: 10px;
+        background: url(../../images/mobile-cart-page-icons/down-arrow.svg) 0 0 no-repeat !important;
+        background-size: 18px 18px !important;
+        background-position: 24px -1px !important;
+        background-image: none !important;
+    }
+
+    /* end of css for the quantity number in mobile cart page */
+
+    /* start of css for the border for the product icon mobile page*/
+    .cart-table .cart_product_img img {
+        border: 0.9px solid #DEDEDE !important;
+    }
+
+    /* end of css for the border for the product icon mobile page*/
+
+    /* start of css for the offer banner at the top of the cart mobile page*/
+
+    .cart-offer-banner {
+        background: #FFFFFF;
+        margin: 16px 15px 18px 10px;
+        width: 95%;
+        height: 65px;
+        border-radius: 3px !important;
+        -webkit-box-shadow: 0px 1px 1px 1px rgba(178, 178, 178, 0.42);
+        box-shadow: 0px 1px 1px 1px rgba(178, 178, 178, 0.42);
+    }
+
+    /* end of css for the offer banner at the top of the cart mobile page*/
+
+    /* start of css for the offer banner text at the top of the cart mobile page*/
+    .cart-offer-text {
+        text-align: center;
+        padding-top: 26px;
+    }
+
+    /* end of css for the offer banner text at the top of the cart mobile page*/
+
+    /* start of css for the discount price at the top of the cart mobile page*/
+
+
+    .cart-dispatch-date {
+        width: 100% !important;
+        display: inline-block !important;
+        margin-top: 20px !important;
+
+    }
+
+    .cart-dispatch-text {
+        font-family: 'Muli', sans-serif !important;
+        font-weight: 400 !important;
+        display: inline-block !important;
+        font-size: 12px !important;
+        color: #515C6F !important;
+        padding: 0px 10px 0px 0px !important;
+        opacity: 0.5 !important;
+    }
+
+    .cart-dispatch-expectedDeliveryDate {
+        font-family: 'Muli', sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        color: #000000;
+    }
+
+    .cart_product_sku {
+        color: #000000;
+        font-family: 'Muli', sans-serif;
+        display: inline-block;
+        font-size: 12px;
+    }
+
+    /* end of css for the discount price at the top of the cart mobile page*/
+    .cart .page-title,
+    .checkout-cart-index .cart_mobile {
+        background: #F3F3F3 !important;
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+
+    .mobile-cart-page-title {
+        text-transform: capitalize;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        margin: 6px 15px !important;
+    }
+
+    /*
+    a-left extra_mobile_td {
+        padding: 0px !important;
+        margin: 0px !important;
+    } */
+
+    .checkout-cart-index .cart-table .product-name a{
+        font-family: 'Muli', sans-serif;
+        font-size: 14px;
+        color: #000000;
+        text-transform: capitalize;
+    }
+
+
+
+
+
+    #shopping-cart-table tr {
+        position: relative;
+        border-bottom: none !important;
+        border-top: none !important;
+        border-left: none !important;
+        border-right: none !important;
+    }
+
+    .checkout-cart-index .attributename {
+        display: inline-block !important;
+        text-align: left !important;
+        width: 50% !important;
+        color: #000000 !important;
+        padding-left: 14px !important;
+        font-size: 14px !important;
+        font-weight: 400 !important;
+        font-family: 'Muli', sans-serif !important;
+    }
+
+
+    .checkout-cart-index .attributevalue {
+        display: inline-block !important;
+        text-align: right !important;
+        color: #000000 !important;
+        padding-right: 14px !important;
+        font-size: 14px !important;
+        font-weight: 400 !important;
+        font-family: 'Muli', sans-serif !important;
+    }
+
+    .checkout-cart-index .web-shopping-cart-table .a-left {
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+
+    .cart-contact-box {
+        border: 1px solid #00000029;
+        width: 95% !important;
+        background: #FFFFFF;
+        margin: 33px auto !important;
+        padding: 0px 10px 0px 10px !important;
+        height: 66px !important;
+        border-radius: 3px !important;
+        -webkit-box-shadow: 0px 0px 0px 0px rgba(178, 178, 178, 0.42);
+        box-shadow: 0px 0px 0px 0px rgba(178, 178, 178, 0.42);
+    }
+
+    .cart-contact-text {
+        float: left;
+        width: 100% !important;
+        padding: 9px 0px 0px 0px !important;
+        font-family: 'Muli', sans-serif !important;
+        margin: 0px;
+        font-weight: 600 !important;
+        font-size: 14px !important;
+    }
+
+    .cart-contact-callus {
+        float: left;
+        width: 43% !important;
+        padding: 0px 0px 0px 0px !important;
+        margin: 0px 0px 0px 0px !important;
+        font-family: 'Muli', sans-serif !important;
+        font-weight: 600 !important;
+        font-size: 14px !important;
+    }
+
+    .cart-contact-phone {
+        float: left;
+        width: 55% !important;
+        margin: 0px 0px 0px -49px;
+        padding: 0px 0px 0px 0px !important;
+        font-family: 'Muli', sans-serif !important;
+        font-weight: 600 !important;
+        font-size: 14px !important;
+        text-decoration: none;
+    }
+
+    .cart-malabar-promises-box {
+        border: 1px solid #00000029;
+        width: 100% !important;
+        background: #FFFFFF;
+        margin: 0 auto !important;
+        padding: 0px 10px 0px 30px;
+        height: 599px !important;
+        border-radius: 3px !important;
+        -webkit-box-shadow: 0px 0px 0px 0px rgba(178, 178, 178, 0.42);
+        box-shadow: 0px 0px 0px 0px rgba(178, 178, 178, 0.42);
+    }
+
+    .cart .voucher {
+        font-size: 11px !important;
+        margin: 5px 0px 0px 0px !important;
+    }
+
+    .cart-payment-methods-accepted {
+        width: 100%;
+        background: none;
+        margin: 20px auto;
+        padding-left: 17px !important;
+        padding-right: 17px !important;
+    }
+
+    .cart-malabar-promises {
+        font-family: 'Muli', sans-serif !important;
+        font-weight: 600 !important;
+        font-size: 14px !important;
+        color: #000000;
+        padding: 0px !important;
+        margin: 23px 0px 5px 0px !important;
+    }
+
+    .cart-malabar-promises-reasons {
+        font-family: 'Muli', sans-serif !important;
+        font-weight: 400 !important;
+        font-size: 14px !important;
+        color: #000000;
+        padding: 0px !important;
+        margin: 0px 0px 11px 0px !important;
+    }
+
+    .cart-malabar-promises-hr {
+        margin-top: 0px !important;
+        margin-bottom: 29px !important;
+        border: 0 !important;
+        border-top: 1px solid rgba(222, 222, 222, 1) !important;
+    }
+
+    /* start of css for the alignment of the apply coupon code button on the cart mobile page*/
+    .checkout-cart-index .discount.clear-fix .f-left.voucherbox .buttons-set {
+        display: inline-block;
+        width: 30%;
+        margin: 0px !important;
+    }
+
+    .discount.clear-fix .f-left.voucherbox .buttons-set .mobilebtn-voucherbox[disabled] {
+        background: #717171 !important;
+        border: none;
+        padding: 8px 23px;
+        border-radius: 0px 5px 5px 0px;
+        height: 40px;
+    }
+
+    .discount.clear-fix .f-left.voucherbox .buttons-set .mobilebtn-voucherbox span {
+        text-transform: uppercase;
+        color: #ffffff !important;
+    }
+
+    .checkout-cart-index .discount.clear-fix .f-left.voucherbox .mobile_voucherinput {
+        width: 100%;
+        height: 40px;
+        -webkit-appearance: none;
+        border-radius: 5px 0px 0px 5px !important;
+        border: 1px solid #707070 !important;
+        color: #000 !important;
+    }
+
+    .discount.clear-fix .f-left.voucherbox .buttons-set .mobilebtn-voucherbox {
+        background: #717171 !important;
+        border: none;
+        padding: 8px 23px !important;
+        border-radius: 0px 5px 5px 0px !important;
+        height: 40px;
+        width: 100% !important;
+    }
+
+    /* end of css for the alignment of the apply coupon code button on the cart mobile page*/
+
+
+}
+
+
+@media screen and (min-width: 400px) and (max-width: 767px) {
+
+    /* start of css for the coupon code label between 400px and 767px */
+    .giftlabel {
+        font-family: 'Muli', sans-serif !important;
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        color: #000000 !important;
+        background: url(../../images/mobile-cart-page-icons/coupon-code-icon.svg) 0 0 no-repeat !important;
+        background-size: 18px 18px !important;
+        background-position: 0px 0px !important;
+        padding-left: 26px !important;
+        left: 0px !important;
+        margin-right: 196px !important;
+    }
+
+    /* end of css for the coupon code label between 400px and 767px */
+
+    /* start of css for the place order button on the cart mobile page*/
+    .checkout-cart-index .cart-collaterals .checkout-types.a-centers .btn-proceed-checkout.btn-checkout {
+        width: 100% !important;
+        height: 50px !important;
+        background: #717171 !important;
+        border-radius: 0px !important;
+        text-transform: uppercase !important;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 14px !important;
+        padding: 6px 0px !important;
+        position: fixed !important;
+        bottom: 0px !important;
+        /* margin-left: -192px !important; */
+        z-index: 1000 !important;
+        border: 0px !important;
+    }
+
+    .checkout-types {
+        width: 100% !important;
+        position: fixed !important;
+        bottom: 0px !important;
+        margin-left: 0px !important;
+        z-index: 1000 !important;
+        border: 0px !important;
+    }
+
+    .continue_shopping {
+        width: 100% !important;
+        position: absolute !important;
+        bottom: 50px !important;
+        left: 0px !important;
+        background: #ffffff !important;
+        border: 0px !important;
+        height: 40px !important;
+        padding: 8px 0px !important;
+        font-family: 'Muli', sans-serif !important;
+        -webkit-box-shadow: 0px 0px 22px -6px #00000096;
+        box-shadow: 0px 2px 10px -2px #00000096;
+    }
+
+    /* end of css for the place order buttonon the cart mobile page*/
+
+    .btn-remove-mobile-cart {
+        display: inline-block !important;
+        width: 12px !important;
+        height: 12px !important;
+        font-size: 0 !important;
+        line-height: 0 !important;
+        padding: 5px 5px 0px 5px !important;
+        background: url(../../images/mobile_header_icons/x-icon.svg) 0 0 no-repeat !important;
+        background-size: 12px 12px !important;
+        text-indent: -9999px !important;
+        overflow: hidden !important;
+        margin-bottom: -8px !important;
+        margin-left: 0px !important;
+        margin-right: 6px !important;
+    }
+
+    .cart-smartbuy {
+        display: none !important;
+
+    }
+
+    .cart_subtotal_extra .cart-price .price {
+        font-family: 'Muli', sans-serif !important;
+        font-size: 14px !important;
+        font-weight: 700 !important;
+        display: inline-block !important;
+        color: #000000 !important;
+        margin: 0px 110px 0px 0px !important;
+        padding: 0px 0px 0px 0px !important;
+        float: right !important;
+    }
+
+    .cart_discount_price {
+        width: 25%;
+        font-family: 'Muli', sans-serif !important;
+        display: inline-block !important;
+        font-size: 11px !important;
+        text-decoration: line-through !important;
+        margin-top: 4px !important;
+        color: #959595 !important;
+    }
+
+
+
+    .show-cart-product-details-box {
+        background: #E8E8E8;
+        width: 109%;
+        height: 43px;
+        text-align: center;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 14px !important;
+        font-weight: 700 !important;
+        color: #000000 !important;
+        text-transform: capitalize;
+        position: relative;
+        margin-top: 160px;
+        margin-left: -12px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+
+    /* start of css for the offer banner in the cart page  */
+    .cart-offer-banner {
+        background: #FFFFFF;
+        margin: 16px 0px 18px 15px;
+        width: 90%;
+        height: 65px;
+        border-radius: 3px !important;
+        -webkit-box-shadow: 0px 1px 1px 1px rgba(178, 178, 178, 0.42);
+        box-shadow: 0px 1px 1px 1px rgba(178, 178, 178, 0.42);
+    }
+
+    /* end of css for the offer banner in the cart page  */
+    .checkout-cart-index .cart .success-msg ul li span {
+        position: absolute !important;
+        left: 51px !important;
+        top: 0px !important;
+        width: 85% !important;
+        padding-left: 22px;
+        z-index: 1 !important;
+        text-align: center !important;
+        background-color: #F3F3F3 !important;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 14px !important;
+        font-weight: normal !important;
+        color: #000000 !important;
+        background: url(../../images/mobile-cart-page-icons/correct-icon.svg) 0 0 no-repeat !important;
+        background-size: 18px 18px !important;
+        background-position: 3px 2px !important;
+    }
+
+    /* start of css to remove border and aligning the product details section */
+    .checkout-cart-index .cart-collaterals .checkout-types.a-centers .btn-proceed-checkout.btn-checkout {
+        width: 100% !important;
+        height: 50px !important;
+        background: #717171 !important;
+        border-radius: 0px !important;
+        text-transform: uppercase !important;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 14px !important;
+        padding: 6px 0px !important;
+        position: fixed !important;
+        bottom: 0px !important;
+        /* margin-left: -165px !important; */
+        z-index: 1000 !important;
+        border: 0px !important;
+    }
+
+    .checkout-types {
+        width: 100% !important;
+        position: fixed !important;
+        bottom: 0px !important;
+        margin-left: 0px !important;
+        z-index: 1000 !important;
+        border: 0px !important;
+    }
+
+    .continue_shopping {
+        width: 100% !important;
+        position: absolute !important;
+        bottom: 50px !important;
+        left: 0px !important;
+        background: #ffffff !important;
+        border: 0px !important;
+        height: 40px !important;
+        padding: 8px 0px !important;
+        font-family: 'Muli', sans-serif !important;
+        -webkit-box-shadow: 0px 0px 22px -6px #00000096;
+        box-shadow: 0px 2px 10px -2px #00000096;
+    }
+
+    /* end of css to remove border within the product details section */
+    .payment-method-icons {
+        margin: 0 auto !important;
+        width: 100% !important;
+    }
+
+    .cart-contact-phone {
+        float: left;
+        width: 55% !important;
+        margin: 0px 0px 0px -28px;
+        padding: 0px 0px 0px 0px !important;
+        font-family: 'Muli', sans-serif !important;
+        font-weight: 600 !important;
+        font-size: 14px !important;
+        text-decoration: none;
+    }
+
+    .btn-remove-mobile-cart {
+        display: inline-block !important;
+        width: 12px !important;
+        height: 12px !important;
+        font-size: 0px !important;
+        line-height: 0 !important;
+        padding: 5px 5px 0px 5px !important;
+        background: url(../../images/mobile_header_icons/x-icon.svg) 0 0 no-repeat !important;
+        background-size: 12px 12px !important;
+        text-indent: -9999px !important;
+        overflow: hidden !important;
+        margin-bottom: 0px !important;
+        margin-left: 0px !important;
+        margin-right: 10px !important;
+        margin-top: 6px !important;
+    }
+
+    .cart-smartbuy {
+        display: none !important;
+    }
+
+    .cart_subtotal_extra {
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+
+    .cart_subtotal_extra .cart-price .price {
+        font-family: 'Muli', sans-serif !important;
+        display: inline-block !important;
+        font-size: 14px !important;
+        font-weight: 700 !important;
+        color: #000000 !important;
+        margin: 0px 100px 0px 0px !important;
+        padding: 0px 0px 0px 0px !important;
+        float: right !important;
+    }
+
+    .cart_discount_price {
+        font-family: 'Muli', sans-serif !important;
+        display: inline-block !important;
+        font-size: 11px !important;
+        text-decoration: line-through !important;
+        margin-top: 4px !important;
+        color: #959595 !important;
+    }
+
+    .show-cart-product-details-box {
+        background: #E8E8E8;
+        width: 109%;
+        height: 43px;
+        text-align: center;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 14px !important;
+        font-weight: 700 !important;
+        color: #000000 !important;
+        text-transform: capitalize;
+        position: relative;
+        margin-top: 17px;
+        margin-left: -12px;
+    }
+
+
+
+
+
+    /* start of css for the offer banner at the top of the cart mobile page*/
+    .cart-offer-banner {
+        background: #FFFFFF;
+        margin: 16px 16px 18px 16px;
+        width: 90%;
+        height: 65px;
+        border-radius: 3px !important;
+        -webkit-box-shadow: 0px 1px 1px 1px rgba(178, 178, 178, 0.42);
+        box-shadow: 0px 1px 1px 1px rgba(178, 178, 178, 0.42);
+    }
+
+    /* end of css for the offer banner at the top of the cart mobile page*/
+
+    .cart-contact-phone-icon {
+        position: relative;
+        width: 20px;
+        height: 20px;
+        right: 2px;
+    }
+}

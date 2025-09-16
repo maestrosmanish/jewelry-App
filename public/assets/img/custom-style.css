@@ -1,0 +1,643 @@
+/* Sajan's Css Edits - Avoid deleting below content*/
+* {
+  box-sizing: border-box;
+}
+
+.smartbuy-customer-view .col-main .smartbuy_main_container {
+  font-family: 'Muli';
+}
+.checkout-onepage-index .col-right.sidebar .payment-totals-table table#shopping-cart-totals-table tfoot tr .a-left{
+padding-right: 0;
+}
+ header#header .overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+ header#header .overlay:target {
+  z-index: 99;
+  visibility: visible;
+  opacity: 1;
+}
+
+ header#header #popup {
+  margin: 10% auto;
+  padding: 20px;
+  background: #FFFFFF;
+  border: 0.5px solid #707070;
+  border-radius: 20px 20px 20px 20px;
+  width: 280px;
+  height: 260px;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+ header#header #popup h2 {
+  margin: 12px 37px 21px 38px;
+  color: #000000;
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  width: 203px;
+  height: 20px;
+  padding-top: 15px;
+}
+
+ header#header .select_country_title {
+  margin: 12px 37px 21px 38px;
+  color: #000000;
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  width: 203px;
+  height: 20px;
+}
+
+ header#header #popup .close {
+  position: absolute;
+  top: 0px;
+  right: 16px;
+  transition: all 200ms;
+  font-size: 16px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: #000000;
+  width: 9px;
+  height: 9px;
+  padding: 5px 9px 0px 0px;
+}
+
+ header#header .select_country_popup_content {
+  text-align: center;
+  display: inline-block;
+  margin-right: 15px;
+}
+.country_popup .modal-dialog .modal-content .modal-body {
+  text-align: center;
+}
+ header#header .select_country_content {
+  text-transform: uppercase;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  color: #000;
+}
+
+ header#header .select_country_icon {
+  height: 44px;
+  width: 44px;
+  padding-top: 0px;
+}
+
+ header#header .select_country_form_group {
+  border-radius: 3px;
+  width: 152px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+ header#header .select_country_header {
+  background: #F3F3F3;
+  height: 53px;
+  position: relative;
+  width: 278px;
+  border-radius: 20px 20px 0px 0px;
+  margin-left: -20px;
+  margin-top: -33px;
+}
+
+
+
+ header#header #popup .close:hover {
+  color: #06D85F;
+}
+
+ header#header #popup .content {
+  max-height: 30%;
+  overflow: auto;
+  margin-top: 30px;
+}
+
+
+ header#header .select_country_popup_title_hr {
+    width: 51px;
+    border: 0.5px solid #B9B9B9;
+    background-clip: padding-box;
+    margin: 10px auto;
+}
+
+/*_________________  end of css for the select country on the mobile header  ________________________________________*/
+
+.cart .discount .buttons-set button.button.cancel span span:after {
+  content: "\f1f8" !important;
+  font-family: 'FontAwesome';
+  font-size: 20px;
+  color: #717171;
+}
+@media screen and (min-width: 767px) {
+  /* Hiding the mobile footer accordion on the desktop*/
+
+  .mobile-footer {
+    display: none !important;
+  }
+
+  /* Hiding the mobile footer accordion on the desktop*/
+}
+
+
+@media screen and (max-width: 767px) {
+  
+  .accordion {
+    display: block;
+  }
+
+  .accordions {
+    display: block;
+  }
+
+  .header .form-search input.input-text {
+    /* padding-left: 10px !important;
+    line-height: 34px;
+    min-height: 34px; */
+    border-radius: 2rem !important;
+    color: #2b2421 !important;
+    float: left !important;
+    height: 100% !important;
+    width: 80% !important;
+    background: url(../../images/input-search.png) no-repeat 1px 0 !important;
+    border: 0 !important;
+    margin-left: 0rem !important;
+    background: #ffffff !important;
+  }
+
+
+  /* removing the myaccount icon from the mobile header */
+  .liAccount {
+    display: none !important;
+  }
+
+  /* removing the phone number bar from the mobile header */
+  .customtoplink {
+    display: none !important;
+  }
+
+  .block-subscribe {
+    width: 100%;
+  }
+
+  /* displaying the search icon on the mobile header */
+  .sticky-search {
+    display: inline-block !important;
+    float: right;
+    margin-top: 7px;
+  }
+
+  .sticky-search .icon-search-button:before,
+  .myWishlist:before,
+  .top-links .links li .my_cart:before,
+  .top-links .links li .log_in:before {
+    font-size: 25px !important;
+  }
+
+  /* displaying the search icon on the mobile header */
+  .quick-access-menu {
+    display: inline !important;
+  }
+
+  .m-sticky .header .sticky-search {
+    display: none !important;
+  }
+
+  .header .sticky-search {
+    /* display: none !important; */
+  }
+
+  .m-sticky .mobile_menu .quick-access-menu {
+    float: left !important;
+    width: 65% !important;
+    display: inline !important;
+    padding: 0% !important;
+    margin: 3% -35% !important;
+    clear: none !important;
+  }
+
+  .mobile_menu .quick-access-menu {
+    display: none !important;
+    float: left !important;
+    width: 35% !important;
+    padding: 0% !important;
+    margin: 4.5% -12% !important;
+    clear: none !important;
+  }
+
+  .m-sticky .header .sticky-search {
+    /* margin-top: 2% !important; */
+  }
+
+
+
+  .sticky-search {
+    /* padding-right: 2.5% !important;
+    margin-top: 4.5% !important; */
+  }
+
+
+
+  /*_________________  Css for hiding the Slider button on the mobile header for 767px screen and lower screen ________________________________________*/
+  .m-sticky .slider-form-search {
+  
+  }
+
+  /*_________________  Css for the Slider button on the mobile header for 767px screen  ________________________________________*/
+  .slider-form-search {
+    margin: 0 auto;
+    float: right;
+    margin-top: -24% !important;
+    margin-right: 52% !important;
+  }
+
+  /*_________________  Css for the select country on the mobile header for 767px screen  ________________________________________*/
+
+  /* css to remove the wishlist icon from mobile header on 767px screen */
+
+  .myWishlist:before {
+    content: "" !important;
+    /* color: #fff;
+    font-size: 35px;
+    font-family: 'malabarIcons' !important; */
+  }
+
+
+
+  /* css to remove the cart icon from mobile header on 767px screen */
+  .top-links .links li .my_cart:before {
+    content: "" !important;
+    /* color: #fff;
+    font-size: 35px;
+    font-family: 'malabarIcons' !important;
+    position: absolute;
+    right: 5px; */
+  }
+
+  /* css to remove the cart icon from mobile header on 767px screen */
+  .header .mobile_menu .my_cart span {
+    display: none !important;
+  }
+
+
+  /* css of search icon on the mobile header for 767px screen */
+  .sticky-search {
+    margin-top: 32px !important;
+    display: inline-block !important;
+    margin-right: 8px !important;
+  }
+
+  .m-sticky .header .india_flag_inner {
+    display: none;
+  }
+
+  .m-sticky .header .india_flag_home {
+    display: none;
+  }
+
+  
+
+  /*_________________  Css for footer Mobile Accordion  ________________________________________*/
+  .accordion {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 30px !important;
+    width: 100%;
+    padding: 32px 0px 10px 0px;
+  }
+  .footer-container {
+    margin-top: 0 !important;
+    padding: 0px 0 20px 0 !important;
+  }
+
+  [id*="open-accordion"],
+  [id*="close-accordion"] {
+    background: #F3F3F3;
+    line-height: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 99%;
+  }
+
+  [id*="close-accordion"] {
+    display: none;
+  }
+
+  .accordion a {
+    color: #000000 !important;
+    font-size: 14px;
+    background-color: #F3F3F3;
+    width: 100%;
+    font-family: 'Muli', sans-serif;
+    font-weight: 600;
+    /* padding-left: 10%; */
+    text-decoration: none;
+    text-shadow: none;
+    background: #F3F3F3;
+    float: left;
+  }
+  /* Adding plus sign to the .accordion */
+  [id*="open-accordion"]:after {
+    content: '+';
+    font-size: 22px;
+    position: absolute;
+    right: -50px;
+    top: 2px;
+    font-weight: 400 !important;
+    font-family: 'Muli', sans-serif !important;
+  }
+
+  /* Adding plus sign to the accordion */
+  [id*="close-accordion"]:after {
+    content: '-';
+    font-size: 22px;
+    position: absolute;
+    right: -50px;
+    top: 3px;
+    font-weight: 400 !important;
+    font-family: 'Muli', sans-serif !important;
+  }
+
+  .target-fix {
+    display: block;
+    top: 0;
+    left: 0;
+    position: fixed;
+  }
+
+  .accordion-content {
+    background: #F3F3F3;
+    height: 0;
+    margin: -1px auto 0;
+    padding: 0 2.5%;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    transition: all 0.1s ease;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    border-bottom: 1px solid #cccccc !important;
+  }
+
+  .accordion-content li a {
+    border: none !important;
+    color: #928888 !important;
+    font-size: 13px !important;
+    font-family: 'Muli', sans-serif !important;
+    font-weight: 300 !important;
+    line-height: 28px;
+  }
+
+
+  .accordion span:target~.accordion-content {
+    display: block;
+    height: auto;
+    padding: 2% 0% !important;
+  }
+
+  .accordion span:target~[id*="close-accordion"] {
+    display: block;
+  }
+
+  .accordion span:target~[id*="open-accordion"] {
+    display: none;
+  }
+
+  .accordion span:target~[id*="close-accordion"]:after {
+    content: '-';
+    font-size: 37px;
+    font-weight: lighter;
+    position: absolute;
+    right: -50px;
+    top: 2px;
+    /* border-top: 10px solid #333; */
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+  .mobile-footer .accordion span:target~[id*="close-accordion"]:after {
+    right: 0;
+  }
+  .mobile-footer .accordion span:target~[id*="close-accordion"] {
+    border-bottom: 1px solid #ccc;
+    height: 60px;
+    line-height: 60px;
+    padding: 3px 0;
+}
+  .slider-form-search:focus {
+    width: 100%;
+    background: white !important;
+    z-index: 999999 !important;
+  }
+  header#header #popup {
+    margin: 30% auto;
+  }
+}
+
+
+/* css of Mobile header for 600px screen */
+@media screen and (max-width: 767px) {
+
+  .slider-form-search {
+    margin: 0 auto;
+    float: right;
+    margin-top: -13% !important;
+    margin-right: 70% !important;
+  }
+  .m-sticky .mobile_menu .right_side {
+    position: static !important;
+    left: 0rem !important;
+    top: 0rem !important;
+  }
+/*
+  .m-sticky .header .mobile_menu .links li.myCartLi {
+    float: right !important;
+    height: 15px !important;
+    width: 18px !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    right: 0px !important;
+    position: absolute !important;
+  }
+*/
+  /* displaying the search icon on the mobile header for 600px screens*/
+  .sticky-search {
+    margin-top: 22px !important;
+    display: inline-block !important;
+    margin-right: -26px !important;
+  }
+
+  /* displaying the malabar logo on the mobile header for 600px screens*/
+  .m-sticky .header .mobile_menu .logo img {
+    max-width: 70% !important;
+    padding-top: 2px;
+  }
+
+  .mobile_menu .quick-access-menu {
+    display: none !important;
+    float: left !important;
+    width: 40% !important;
+    padding: 0% !important;
+    margin: 1.5% -22% !important;
+    clear: none !important;
+  }
+
+  .m-sticky .mobile_menu .quick-access-menu {
+    float: left !important;
+    width: 60% !important;
+    display: inline !important;
+    padding: 0% !important;
+    margin: 3.5% -33% !important;
+    clear: none !important;
+  }
+
+
+  .header .mobile_menu .links li:first-child {
+    padding-right: 0px !important;
+  }
+  /* css of cart icon Mobile header for 600px screen */
+  /* css to remove the cart icon from mobile header on 600px screen */
+  .top-links .links li .my_cart:before {
+    content: "" !important;
+    /* color: #fff;
+    font-size: 35px;
+    font-family: 'malabarIcons' !important;
+    position: absolute;
+    right: 5px; */
+  }
+
+  /* css to remove the cart icon from mobile header on 600px screen */
+  .header .mobile_menu .my_cart span {
+    display: none !important;
+  }
+
+  /* css for the india flag for mobile screen for 600px screen size */
+  .menu_icon_button {
+    visibility: hidden;
+  }
+
+  .m-sticky .menu_icon_button {
+    visibility: hidden;
+
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+
+  .mobile_menu .mob-menu {
+    /* float: left;
+    text-align: left;
+    padding-right: 10px;
+    text-align: left; */
+    margin: 23px 19px 23px 14px !important;
+    position: absolute !important;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background-image: url(../../images/mobile_header_icons/menu-01.svg) !important;
+    background-position: 0px 1px !important;
+    background-repeat: no-repeat !important;
+    /* background-size: contain !important; */
+    width: 20px !important;
+    height: 14px !important;
+  }
+
+  .menu_icon_button {
+    visibility: hidden;
+  }
+
+  .m-sticky .menu_icon_button {
+    visibility: hidden;
+
+  }
+
+  .footer strong {
+    display: none !important;
+  }
+
+  .block-subscribe .block-title {
+    display: none;
+    margin-bottom: 0px;
+    text-align: center;
+    width: auto !important;
+  }
+  .validation-advice {
+    clear: both !important;
+    min-height: 13px !important;
+    margin-bottom: -46px !important;
+    padding-left: 17px !important;
+    font-size: 11px !important;
+    font-weight: bold !important;
+    line-height: 13px !important;
+    background: url(../images/validation_advice_bg.gif) 2px 0 no-repeat;
+    color: #eb340a !important;
+  }
+
+  /* css of weaccept credit card icons in the footer for 767px screen */
+  .weaccept {
+    display: none;
+    width: 100% !important;
+    clear: both !important;
+  }
+
+  /* css of social media icons in the footer for 767px screen */
+
+  .socialmedia ul li {
+    width: 5% !important;
+    display: inline-block !important;
+    padding: 0px 30px 0px 30px !important;
+  }
+
+}
+@media all and (max-width: 767px){
+ /* cart checkout mobile */
+  .checkout-onepage-index section#main-container .main{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+  .checkout-onepage-index section#main-container .main.addflex{
+    display: block;
+  }
+  .checkout-onepage-index li#opc-billing div#checkout-step-billing .billing_shipping_address.col-xs-16.col-md-16 form#co-billing-form div#allow-gift-message-container{
+    margin-bottom: 40px;
+  }
+  .checkout-onepage-index .col-right.sidebar .cart_content .block-subtitle.active_subtitle:after{
+    content: "\f107";
+  }
+  .checkout-onepage-index .col-right.sidebar .cart_content .block-subtitle:after{
+    content: "\f106";
+    font-family: "FontAwesome";
+    position: absolute;
+    right: 3px;
+    cursor: pointer;
+    font-size: 20px;
+    top: -7px;
+  }
+  .checkout-onepage-index .col-right.sidebar .cart_content{
+    position: relative;
+  }
+  .account-create div.password .show_password,
+  .account-create div.cnf-password .show_password{
+    top: 30px;
+  } 
+  .checkout-onepage-index div.password .show_password, 
+  .checkout-onepage-index div.cnf-password .show_password{
+    top: 18px;
+  }
+}

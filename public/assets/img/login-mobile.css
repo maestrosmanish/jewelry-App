@@ -1,0 +1,426 @@
+@media screen and (max-width: 767px) {
+   .customer-account-login .validation-advice{
+        padding: 0;
+    margin: 10px 0 !important;
+    position: static;
+    }
+    .new_user_heading {
+        display: none !important;
+    }
+
+
+    .wrapper {
+        margin-top: 0px !important;
+    }
+
+    .checkout-onepage-index .customer-account-login .footer-container {
+        border: none !important;
+    }
+
+    .customer-account-login .mob-my-account .login_users.row .register-wrapper.visible-xs .separator.create-account-separator{
+        margin-top: 20px !important
+    }
+
+    .register-wrapper.visible-xs .separator.create-account-separator{
+        margin-top: 20px !important
+    }
+    .register-wrapper.visible-xs .create-account-link{
+        float: none;
+        text-align: center;
+        display: inline-block;
+        padding: 10px 20px;
+        border: 1px solid #000;
+        border-radius: 3px;
+        width: 100% !important;
+        margin-top: 20px;
+    }
+    .register-wrapper.visible-xs{
+        margin-top: 50px;
+    }
+    
+}
+
+@media screen and (min-width: 401px) and (max-width: 767px) {
+
+    .account-login .login_users {
+        border: 0 none !important;
+        background: #F3F3F3 !important;
+        margin-bottom: 25px !important;
+        padding: 0px !important;
+    }
+
+    .new_user_heading {
+        display: none !important;
+    }
+
+    .account-login .content h2 {
+        margin: 18px 0px 41px 10px !important;
+        text-align: center !important;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 14px !important;
+        font-weight: 700 !important;
+        color: #000000 !important;
+        text-transform: capitalize;
+    }
+
+    .mobile-login-with-facebook-container {
+        width: 170px;
+        height: 34px;
+        border-radius: 3px;
+        margin-left: 31px;
+        background: #FFFFFF;
+        -webkit-box-shadow: 0px 1px 1px 1px #00000029;
+        -moz-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 1px 1px 1px #00000029;
+        float: left;
+    }
+
+    .mobile-login-with-facebook-icon {
+        position: absolute;
+        left: 37px;
+        top: 65px;
+        width: 24px;
+        height: 24px;
+    }
+
+    .mobile-login-with-facebook {
+        font-size: 14px;
+        font-weight: 300;
+        font-family: 'Muli', sans-serif !important;
+        padding: 6px 46px 8px 60px;
+
+    }
+
+    .mobile-login-with-google-container {
+        float: right;
+        width: 170px;
+        height: 34px;
+        margin-right: 31px;
+        border-radius: 3px;
+        background: #FFFFFF;
+        -webkit-box-shadow: 0px 1px 1px 1px #00000029;
+        -moz-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 1px 1px 1px #00000029;
+    }
+
+    .mobile-login-with-google-icon {
+        float: left;
+        position: absolute;
+        right: 170px;
+        top: 65px;
+    }
+
+    .mobile-login-with-google {
+        font-size: 14px;
+        font-weight: 300;
+        font-family: 'Muli', sans-serif !important;
+        padding: 6px 51px 8px 72px;
+    }
+
+    .content col-xs-16 full-width {
+        width: 100%
+    }
+
+    .mob-my-account {
+        background: #F3F3F3 !important;
+        width: 100% !important;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+
+    .account-login .login_users .buttons-set .button span {
+        color: #FFFFFF !important;
+        text-transform: uppercase;
+    }
+
+    .account-login .login_users .buttons-set .button {
+        background: #717171 !important;
+        float: none !important width: 100%;
+        padding: 10px 20px;
+        border-radius: 3px !important;
+        border: 0 none;
+        margin-bottom: 10px;
+    }
+
+    .account-login .login_users .form-list label {
+        color: #000000 !important;
+        font-size: 14px !important;
+        font-family: 'Muli', sans-serif !important;
+        font-weight: 400 !important;
+        margin-bottom: -6px !important;
+    }
+
+    .form-list label.required em {
+        color: #000000 !important;
+    }
+
+    .forgot-password-link {
+        position: relative;
+        /* width: 100%; */
+        /* left: 0px;*/
+        background: #F3F3F3;
+        top: 7rem;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 12px !important;
+        font-weight: 700 !important;
+        color: #000000 !important;
+        text-decoration: none !important;
+    }
+
+    .create-account-link {
+        position: relative;
+        left: 0px;
+        top: 0.3rem;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 12px !important;
+        font-weight: 700 !important;
+        color: #000000 !important;
+        text-decoration: none !important;
+    }
+
+    /* start of css for the horizontal line  */
+
+    .separator {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin: 97px 0px 19px 0px !important;
+    }
+
+    .separator::before,
+    .separator::after {
+        content: '';
+        flex: 1;
+        border-bottom: 1px solid #707070;
+    }
+
+    .separator::before {
+        margin-right: .25em;
+        margin-left: 31px;
+    }
+
+    .separator::after {
+        margin-left: .25em;
+        margin-right: 31px;
+    }
+
+    /* end of css for the horizontal line  */
+    .account-login .content input.input-text {
+        border: none;
+        width: 100% !important;
+        border-radius: 3px;
+        -webkit-box-shadow: 0px 1px 1px 1px #00000029;
+        -moz-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 1px 1px 1px #00000029;
+    }
+
+    .form-list .input-box {
+        width: 100% !important;
+    }
+
+    .buttons-set,
+    .form-list {
+        margin: 10px 31px 10px 31px !important;
+    }
+    .register-wrapper.visible-xs {
+        padding: 0 30px;
+    }
+    .form-list {
+        padding: 0px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+    .account-login .login_users {
+        border: 0 none !important;
+        background: #F3F3F3 !important;
+        margin: 0px 15px !important;
+        padding: 0px !important;
+        width: 90% !important;
+    }
+
+    .account-login .content h2 {
+        margin: 18px 0px 41px 10px !important;
+        text-align: center !important;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 14px !important;
+        font-weight: 700 !important;
+        color: #000000 !important;
+        text-transform: capitalize;
+    }
+
+    .mobile-login-with-facebook-container {
+        width: 46%;
+        height: 34px;
+        border-radius: 3px;
+        margin-left: 0px;
+        background: #FFFFFF;
+        -webkit-box-shadow: 0px 1px 1px 1px #00000029;
+        -moz-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 1px 1px 1px #00000029;
+        float: left;
+    }
+
+    .mobile-login-with-facebook-icon {
+        position: absolute;
+        left: 8px;
+        top: 65px;
+        width: 24px;
+        height: 24px;
+    }
+
+    .mobile-login-with-facebook {
+        font-size: 14px;
+        font-weight: 300;
+        font-family: 'Muli', sans-serif !important;
+        padding: 6px 46px 8px 60px;
+
+    }
+
+    .mobile-login-with-google-container {
+        float: right;
+        width: 46%;
+        height: 34px;
+        margin-right: 0px;
+        border-radius: 3px;
+        background: #FFFFFF;
+        -webkit-box-shadow: 0px 1px 1px 1px #00000029;
+        -moz-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 1px 1px 1px #00000029;
+    }
+
+    .mobile-login-with-google-icon {
+        float: left;
+        position: absolute;
+        right: 115px;
+        top: 65px;
+    }
+
+    .mobile-login-with-google {
+        font-size: 14px;
+        font-weight: 300;
+        font-family: 'Muli', sans-serif !important;
+        padding: 6px 51px 8px 72px;
+    }
+
+    .content col-xs-16 full-width {
+        width: 100%
+    }
+
+    /* .mob-my-account {
+        background: #F3F3F3 !important;
+    } */
+
+    .account-login {
+        background: #F3F3F3 !important;
+        width: 100% !important;
+        margin: 0px 10px !important;
+        padding: 0px !important;
+    }
+
+    .account-login .login_users .buttons-set .button span {
+        color: #FFFFFF !important;
+        text-transform: uppercase;
+    }
+
+    .account-login .login_users .buttons-set .button {
+        background: #717171 !important;
+        float: none !important;
+        width: 100% !important;
+        padding: 10px 20px !important;
+        border-radius: 3px !important;
+        border: 0 none !important;
+        margin-bottom: 10px !important;
+    }
+
+    .account-login .login_users .form-list label {
+        color: #000000 !important;
+        font-size: 14px !important;
+        font-family: 'Muli', sans-serif !important;
+        font-weight: 400 !important;
+        margin-bottom: -6px !important;
+        padding: 0px 0px !important;
+    }
+
+    .form-list label.required em {
+        color: #000000 !important;
+    }
+
+    .forgot-password-link {
+        position: relative;
+        /* width: 100%; */
+        /* left: 0px;*/
+        background: #F3F3F3;
+        top: 7rem;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 12px !important;
+        font-weight: 700 !important;
+        color: #000000 !important;
+        text-decoration: none !important;
+    }
+
+    .create-account-link {
+        position: relative;
+        width: auto !important;
+        float: right;
+        left: 0px;
+        top: 0.3rem;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 12px !important;
+        font-weight: 700 !important;
+        color: #000000 !important;
+        text-decoration: none !important;
+    }
+
+    /* start of css for the horizontal line  */
+
+    .separator {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin: 95px 0px 0px 0px !important;
+    }
+
+    .separator::before,
+    .separator::after {
+        content: '';
+        flex: 1;
+        border-bottom: 1px solid #707070;
+    }
+
+    .separator::before {
+        margin-right: .25em;
+        margin-left: 0px;
+    }
+
+    .separator::after {
+        margin-left: .25em;
+        margin-right: 0px;
+    }
+
+    /* end of css for the horizontal line  */
+    .account-login .content input.input-text {
+        border: none;
+        width: 100% !important;
+        border-radius: 3px;
+        -webkit-box-shadow: 0px 1px 1px 1px #00000029;
+        -moz-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 1px 1px 1px #00000029;
+    }
+
+    .form-list .input-box {
+        width: 100% !important;
+        padding: 10px 0px !important;
+    }
+
+    .buttons-set {
+        margin: 0px 0px !important;
+        padding: 0px !important;
+    }
+
+    .form-list {
+        margin: 0px 0px !important;
+    }
+
+
+}

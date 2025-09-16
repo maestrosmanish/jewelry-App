@@ -1,0 +1,13 @@
+.wk_preorder_loader{background:none repeat scroll 0 0 rgba(255, 244, 232, 0.61);position: absolute;top: 0px;left:0;width: 100%;z-index:2000;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFF4E9,endColorstr=#FFF4E9);}
+.wk_preorder_loader > div{background:url("image/ajax-loader-tr.gif") no-repeat scroll 0 0 transparent;position: fixed;top: 48%;border-radius: 18px;left:48%;width: 32;height: 32px;width: 32px;}
+.wk_notification {
+    background: none repeat scroll 0 0 #F25253;
+    border: 2px solid #E2E2E2;
+    border-radius: 4px;
+    font-family: Verdana;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    position: fixed;
+    z-index: 9999;
+}

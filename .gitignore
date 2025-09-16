@@ -39,3 +39,16 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+# Next.js / frontend ignores
+node_modules/
+.next/
+.env
+
+# Backend ignores
+backend/node_modules/
+backend/package-lock.json
+
+# Prisma
+backend/generated/

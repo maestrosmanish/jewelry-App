@@ -1,0 +1,133 @@
+
+ .boxWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width:100% ;
+  min-height: 300px;
+  gap: 8px;
+  justify-content: space-evenly;
+}
+
+/* Only used inside .boxes */
+.box {
+  width: 100% !important;
+}
+
+/* Optional: full-width box inside .boxes */
+.boxC {
+
+  width: 99.5%;
+  min-height: 200px;
+}
+
+/* Direct children of .boxWrapper */
+.outbox {
+
+  width:100%;
+
+}
+
+/* Responsive layout */
+@media (max-width: 980px) {
+  .boxes {
+    width: 100%;
+  }
+
+  .box,
+  .boxC {
+    width: 100%;
+  }
+
+  .outbox {
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .header1,
+  .sideBarhead {
+    display: none !important;
+  }
+
+  
+} 
+.bar{
+  position: absolute;
+  top: 0px; left: 50%;
+  width: 300px; height: 300px; /* full circle! */
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 10px solid #EBEBEB;
+    /* half gray, */
+  rotate: 44deg;
+  border-top-color: #0bf; 
+  border-left-color: #0bf; /* half azure */
+ 
+} 
+.card {
+      background: white;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+      width: 400px;
+      text-align: center;
+      margin: auto;
+    }
+
+    canvas {
+      margin-bottom: 10px;
+    }
+
+    .percentage {
+      font-size: 32px;
+      font-weight: bold;
+      color: #1f2937;
+    }
+
+    .increase {
+      background: #d1fae5;
+      color: #10b981;
+      display: inline-block;
+      margin-top: 8px;
+      padding: 3px 10px;
+      border-radius: 9999px;
+      font-size: 14px;
+    }
+
+    .description {
+      color: #6b7280;
+      font-size: 14px;
+      margin-top: 12px;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 24px;
+      font-size: 14px;
+      color: #374151;
+    }
+
+    .stats span {
+      display: block;
+      font-weight: bold;
+      font-size: 16px;
+      color: #111827;
+    }
+
+    .up {
+      color: #10b981;
+    }
+
+    .down {
+      color: #ef4444;
+    }

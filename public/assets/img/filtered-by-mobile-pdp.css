@@ -1,0 +1,57 @@
+@media screen and (min-width: 300px) and (max-width: 767px) {
+
+    /* css for the filter by slide in menu */
+    .left-flyout-nav {
+        padding: 0px !important;
+        margin: 0px !important;
+        border: none !important;
+        width: 90% !important;
+    }
+
+    .filters_container {
+        background: none repeat scroll 0 0 #ffffff !important;
+        border: 1px solid #E2E2E2 !important;
+        float: left !important;
+        margin: 0 auto !important;
+        width: 55% !important;
+    }
+
+    .filters_container .filter-section-head {
+        padding: 5px 0px 0px 10px !important;
+        float: left !important;
+        width: 15% !important;
+        cursor: pointer;
+        color: #000000 !important;
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        font-family: 'Muli', sans-serif !important;
+        margin: 0 0 0px !important;
+        background: #F3F3F3 !important;
+    }
+
+    .filter_section {
+        overflow: hidden;
+        width: 50% !important;
+        display: block;
+        float: left !important;
+        background: #ffffff !important;
+    }
+
+    .filters_container .filter-section-head.inactive.active {
+        background: #ffffff !important;
+    }
+
+    .filters_container .filter-section-head.inactive.active:before {
+        /* content: none !important; */
+    }
+
+    /* css for clear all text */
+    .is-flyout-visible .currently a {
+        color: #455560;
+        position: absolute;
+        margin-left: 23rem;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 14px !important;
+        font-weight: 400 !important;
+    }
+}

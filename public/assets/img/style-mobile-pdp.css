@@ -1,0 +1,1927 @@
+.catalog-product-view .add-to-cart.full-width button.button.btn-cart{
+    height: 45px;
+    background: #000;
+    font-family: 'Muli';
+    width: 48%;
+}
+.catalog-product-view .add-to-box .add-to-cart{
+    float: none;
+}
+.malabardiamonds-index-view .item.videothumbnail img,
+.malabardiamonds-index-view .promise_carousel li a img {
+    width: 68px !important;
+    display: block;
+}
+@media screen and (min-width: 767px) {
+    .product-details-pdp {
+        display: none;
+    }
+
+    .pdp-promises-container {
+        display: none;
+    }
+
+    .sticky-buynow {
+        display: none;
+    }
+
+    .you-may-like-this-box {
+        display: none !important;
+    }
+
+    .pdp-hr-customized-product {
+        display: none !important;
+    }
+
+    .pdp-hr-price_breakup {
+        display: none !important;
+    }
+
+    .check_pincode {
+        display: none !important;
+    }
+    .catalog-product-view #pdp_banner_big,
+    .malabardiamonds-index-view #pdp_banner_big{
+        margin-top: 20px;
+    }
+    .catalog-product-view .bis_container_mob {
+        display: none !important;
+    }
+}
+
+/* This is where css for the mobile pdp page will be listed  */
+@media screen and (max-width: 767px) {
+    .price_breakup_popup_left{
+        width: 42%;
+    }
+    .price_breakup_popup_right,
+    .orig_diamond_charge,
+    .orig_making_charge {
+        width: 58%;
+        float: right !important;
+        text-align: right !important;
+    }
+
+    .MagicToolboxSelectorsContainer [data-magic-slide-id].mz-thumb:hover:not(.active-selector) img, 
+    .MagicToolboxSelectorsContainer [data-magic-slide-id].m360-selector:hover:not(.active-selector) img, 
+    .MagicToolboxSelectorsContainer [data-magic-slide-id].video-selector:hover:not(.active-selector) img {
+    -webkit-filter: brightness(100%) !important;
+    filter: brightness(100%) !important;
+}
+.MagicToolboxSelectorsContainer .remove_border_botom.mz-thumb-selected > img{
+    border-bottom-color: transparent !important;
+}
+    /* start of css for the product details and also the review section in the product details page */
+    .product-collateral h2.resp-accordion {}
+
+    .product-collateral h2.resp-tab-active {}
+
+    h2.resp-accordion {}
+
+    h2.resp-tab-active {}
+
+    h2.resp-accordion,
+    .r-tabs-accordion-title {}
+
+    .resp-tabs-container h2 {}
+
+    h2.resp-tab-active {}
+
+    /* end of css for the product details and also the review section in the product details page */
+    .page {
+        background: #F3F3F3;
+    }
+
+    .pdp-product-name {
+        padding-left: 20px;
+    }
+
+    .product-code {
+        padding-left: 20px;
+
+    }
+
+    .product-view {
+        padding: 0px !important;
+    }
+
+    .view-product-details-link {
+        
+        text-decoration: none;
+    }
+    .view-product-details-link > span{
+        text-decoration: underline;
+    }
+
+    .byr_custsize .choose_customsize {
+        display: block !important;
+        margin-top: 5px !important;
+        text-align: left !important;
+        padding: 0px !important;
+        font-weight: bold;
+        font-family: 'Muli';
+        color: #000;
+    }
+    .customsize .ui-btn-inner span{
+        color: #000;
+        font-family: 'Muli';
+        font-weight: bold;
+    }
+    .product-view .product-shop .availability,
+    .product-code h5 {
+        padding: 0px !important;
+        font-size: 14px !important;
+        font-weight: 400 !important;
+        font-family: 'Muli', sans-serif !important;
+        color: #000000 !important;
+    }
+
+    .product-view .product-shop .availability span {
+        padding: 0px !important;
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        font-family: 'Muli', sans-serif !important;
+        color: #000000 !important;
+    }
+
+    .availablity_stocks {
+        margin-top: -5px !important;
+    }
+
+    .navigation_menu {
+        border: none !important;
+    }
+
+    .product-view {
+        background: #F9F9F9 !important;
+    }
+
+    .catalog-product-view .mobile_buynow .button.btn-cart {
+        float: right !important;
+        border-radius: 0px !important;
+        background: #313131 !important;
+        /* border: 1px solid #851852 !important; */
+        padding: 20px 43px !important;
+        width: 100% !important;
+        text-transform: uppercase !important;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 16px !important;
+        font-weight: 600 !important;
+        z-index: 9999999999999 !important;
+    }
+    .catalog-product-view .check_pincode.page-center.a-centers .cod-serviceability label {
+        display: none;
+    }
+    .catalog-product-view .contactbox_bisicons_desk{
+        display: none;
+    }
+  /*  .catalog-product-view .byr_custsize>#customsize .mobDisplay:nth-of-type(1) {
+        width: 100px;
+    }*/
+    .catalog-product-view .mob-customsize.byr_custsize .ring_diamond_guide a {
+        font-size: 10px;
+    }
+    .product-thumbnail .owl-nav {
+        display: none;
+    }
+
+    .price_breakup_popup .product-plus {
+        display: none !important;
+    }
+
+    .product_shop_left .product-name {
+        display: none;
+    }
+
+    .catalog-product-view .product-shop .short-description {
+/*        display: none !important;
+*/
+    padding-left: 20px;
+    font-family: "Muli";
+    font-weight: 600;    
+}
+
+    .product-view .product-img-box .more-views .cloud-zoom-gallery.active {
+        border: none !important;
+    }
+
+    .catalog-product-view .customize-further {
+        display: none !important;
+    }
+
+    .mobile_pdp_page .top-share {
+        display: none !important;
+    }
+
+    .product-view .product-img-box .more-views li a {
+        border: none !important;
+    }
+
+    .pincode-heading_mobile {
+        display: none !important;
+    }
+
+    .product-collateral {
+        /* display: none !important; */
+    }
+    .mobile_buynow .add-to-box{
+        z-index: 99999;
+    }
+
+    .product-view ul.bis {
+        display: none !important;
+    }
+    .catalog-product-view .pdp-banner-details-block.show_block .brand-desc.show_brand_desc p:nth-of-type(n+2) {
+        display: none;
+    }
+    .catalog-product-view .brand-desc-read-more + div.in .brand-desc.show_brand_desc .tab-content-heading {
+        display: none;
+    }
+    .catalog-product-view .brand-desc-read-more + div.in .brand-desc.show_brand_desc p:nth-of-type(1){
+        display: none;
+    }
+  
+    .choose_customsize.gldclrlabel {
+        width: 100%;
+        margin-bottom: 6px;
+    }
+
+    .byr_custsize .choose_customsize.widLabel {
+        width: 100%;
+        margin-bottom: 6px;
+    }
+
+    .byr_custsize .choose_customsize {
+        width: 100%;
+        margin-bottom: 6px;
+    }
+
+    .view_more_offerTag {
+        display: none;
+    }
+
+    .price_container {
+        display: none;
+    }
+
+    .price_container .price-box {
+    }
+
+    .sticky-buynow-container {
+        bottom: 45px;
+        position: fixed;
+        z-index: 10000;
+        background: #ffffff;
+        min-height: 62px;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        width: 100%;
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(178, 178, 178, 0.42);
+        box-shadow: 0px 0px 5px 0px rgba(178, 178, 178, 0.42);
+    }
+    .product-view .sticky-buynow-container .price-box .price{
+        font-size: 18px;
+        position: static;
+        padding: 0 20px;
+        padding-right: 5px;
+        padding-top: 8px;
+    }
+    .product-view .sticky-buynow-container #smartbuy_price_check .price-box .price, 
+    .product-view .sticky-buynow-container #offer_price_check .price-box .price{
+        font-size: 18px;
+        position: static;
+        padding: 0 20px;
+        padding-right: 5px;
+        padding-top: 8px;
+    }
+    .catalog-product-view .grouped-offer-price-check #offer_price_check .price-box{
+        padding: 0;
+    }
+    .product-view .sticky-buynow-container .price-box .orginal_product_price .price {
+        font-size: 16px !important;
+        color: #bfbfbf !important;
+        text-decoration: line-through;
+        text-decoration-color: #bfbfbf;
+        font-weight: normal;
+    }
+    .product-view .sticky-buynow-container #smartbuy_price_check .price-box .price .price, 
+    .product-view .sticky-buynow-container #offer_price_check .price-box .price .price{
+        padding: 0;
+    }
+    .grouped-offer-price-check {
+    flex-wrap: wrap;
+   }
+   .sticky-buynow .sticky-buynow-container .grouped-offer-price-check .price-box.grouped-price .offer-price{
+      /*  font-size: 16px !important;
+        color: #bfbfbf !important;
+        text-decoration: line-through;
+        text-decoration-color: #bfbfbf;
+        font-weight: normal;*/
+    }
+    .catalog-product-view .mobile_buynow.visible-xs button.button.btn-cart.page-center {
+        border: 1px solid #717171;
+    }
+
+    .share-button-sticky-pdp {
+        position: absolute;
+        right: 16px;
+        bottom: 26px;
+    }
+    .share-button-sticky-pdp-wrapper {
+        position: absolute;
+        right: 70px;
+        bottom: 0;
+        width: 46px;
+        height: 60px;
+        display: block;
+        z-index: 9;
+    }
+    .share-button-sticky-content{
+        position: absolute;
+        justify-content: space-between;
+        width: 40%;
+        right: 10px;
+        top: -65px;
+        background: #efefef;
+        padding: 20px;
+        display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+        display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+        display: -ms-flexbox;      /* TWEENER - IE 10 */
+        display: -webkit-flex;     /* NEW - Chrome */
+        display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    }
+    .sticky-price-pdp .price {
+        font-family: 'Muli', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .catalog-product-view .sticky-buynow .sticky-buynow-container .price-box.no-offer {
+    position: absolute;
+    bottom: 20px;
+    }
+    .sticky-savings-price {
+        position: absolute;
+        bottom: 10px;
+        left: 18px;
+    }
+
+    .price_breakup_popup {
+        z-index: 1 !important;
+    }
+
+    .pdp-hr {
+        width: 58px;
+        border: .2px solid #040404;
+        margin-left: 24%;
+        margin-top: -10px;
+    }
+
+    .button.button span span,
+    a.button span span {
+        color: #111111 !important;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 12px !important;
+        font-weight: bold !important;
+    }
+
+    .cod-serviceability {
+        margin: 20px 0px 20px -8px !important;
+        padding: 40px 0px !important;
+        border-radius: 3px !important;
+        -webkit-box-shadow: 0px 0px 10px 0px rgba(178, 178, 178, 0.42);
+        box-shadow: 0px 0px 10px 0px rgba(178, 178, 178, 0.42);
+    }
+
+    .product-view .price-box .price {
+        padding: 0;
+        margin: 0;
+    }
+
+    .check_pincode button.button {
+        color: #111111;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 12px !important;
+        font-weight: 600 !important;
+    }
+    .catalog-product-view .grouped-offer-price-check .regular-price .price {
+        font-size: 16px;
+    }
+    .catalog-product-view .grouped-offer-price-check .price-box.grouped-price {
+        padding: 0 !important;
+        padding-left: 10px !important;
+    }
+
+    /* start of css code for the hide/show link */
+    .readmore {
+        display: none;
+    }
+
+    article[id*="n"]:target .readmore {
+        display: block;
+    }
+
+    article[id*="n"]:target .used {
+        display: none;
+    }
+    /* end of css code for the hide/show link */
+    /* grouped product css */
+    
+    .catalog-product-view #super-product-table.data-table.grouped-items-table.grouped-product .price-box .price{
+        position: static !important;
+    }
+    .catalog-product-view .product-view .add-to-cart .button {
+        line-height: 20px;
+        font-weight: bold;
+    }
+    .catalog-product-view #super-product-table.grouped-items-table .price-box{
+        padding: 0 !important;
+        font-family: 'Muli';
+        position: static !important;
+    }
+    #super-product-table.data-table.grouped-items-table.grouped-product tr.odd {
+        border: 0;
+    }
+    #super-product-table.data-table.grouped-items-table.grouped-product {
+        box-shadow: 0px 0px 5px 0px rgba(178, 178, 178, 0.42);
+        border: none !important;
+        margin-top: 20px !important;
+    }
+    #super-product-table.data-table.grouped-items-table.grouped-product #customsize .ring_selsize select{
+        padding-left: 10px;
+    }
+    #super-product-table.data-table.grouped-items-table.grouped-product #customsize .ring_selsize:after {
+        background: #FFFFFF !important;
+        color: #656565 !important;
+        height: 34px !important;
+        right: 0px !important;
+        top: 0px !important;
+        position: absolute !important;
+        padding: 0px 0px 0px 2px !important;
+    }
+    #super-product-table.data-table.grouped-items-table.grouped-product #customsize .ring_selsize:after {
+        font-family: 'FontAwesome';
+        content: "\f107";
+        float: right;
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+        color: #fff;
+        font-size: 24px;
+        background: #B8AD8F;
+        position: absolute;
+        padding: 1px 0px 0px 5px;
+        width: 25px;
+        height: 35px;
+        right: 1px;
+        top: 0;
+    }
+    #super-product-table.data-table.grouped-items-table.grouped-product #customsize .ring_selsize::after {
+        border-left: 1px solid #aeaeae !important;
+        padding-left: 5px !important;
+        line-height: 20px;
+        height: 20px !important;
+        top: 7px !important;
+    }
+    .catalog-product-view .product-shop .product_shop_left .availability {
+        padding-left: 0 !important;
+    } 
+    .catalog-product-view .product_shop_left #super-product-table.data-table.grouped-items-table.grouped-product td {
+        color: #000;
+        font-weight: bold;
+        font-family: 'Muli';
+        padding-left: 20px;
+    }
+    .catalog-product-view #super-product-table.data-table.grouped-items-table.grouped-product td.a-left.last {
+        padding-left: 6px !important;
+        padding-right: 20px;
+    }
+    #super-product-table.data-table.grouped-items-table.grouped-product .mob-customsize.byr_custsize {
+        padding: 0 5px !important;
+        box-shadow: none !important;
+        margin-top: 0 !important;
+    }
+
+    .catalog-product-view .product_shop_left #super-product-table.data-table.grouped-items-table.grouped-product tr.even > td{
+        padding: 0;
+    }
+    .catalog-product-view #super-product-table.data-table.grouped-items-table.grouped-product td.offer-price-column {
+        display: none;
+    }
+    .catalog-product-view #super-product-table.data-table.grouped-items-table.grouped-product .price_breakup_popup {
+        margin-top: 0 !important;
+        float: none;
+        margin: 0 auto;
+        position: relative;
+        display: inline-block;
+        width: 100%;
+    }
+    .catalog-product-view #super-product-table.data-table.grouped-items-table.grouped-product .price_breakup_popup .price_breakup_title{
+    padding: 0 !important;
+    width: 100% !important;
+    margin-bottom: 0 !important;
+    margin-top: 15px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    font-family: 'Muli', sans-serif !important;
+    color: #000000 !important;
+    line-height: 28px !important;
+}
+.catalog-product-view #super-product-table.data-table.grouped-items-table.grouped-product .price_breakup_popup ul {
+    background: 0;
+    position: inherit;
+    width: 100%;
+    margin-top: 20px !important;
+    height: auto;
+}
+.catalog-product-view #super-product-table.data-table.grouped-items-table.grouped-product .price_breakup_popup li .breakup_content{
+    min-height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 !important;
+}
+.catalog-product-view #super-product-table.data-table.grouped-items-table.grouped-product .price_breakup_popup ul li {
+        font-weight: 600;
+        margin: 5px 0 !important;
+        float: none;
+    text-align: center;
+    width: 100% !important;
+    display: inline-block;
+    border-bottom: 1px solid #DEDEDE;
+    height: 30px !important;
+    background: #ffffff !important;
+    padding: 0 10px;
+    }
+    #super-product-table.data-table.grouped-items-table.grouped-product .price_breakup_popup li div span{
+        font-weight: normal;
+    }
+    .catalog-product-view .price_breakup_grp.price_breakup.a-centers.hidden-xs {
+        display: block !important;
+        border: 1px solid #00000029 !important;
+        width: 95% !important;
+        background: #FFFFFF !important;
+        padding: 15px 0px !important;
+        margin: 0px 10px 0px 8px !important;
+        margin-bottom: 20px !important;
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(178, 178, 178, 0.42);
+        box-shadow: 0px 0px 5px 0px rgba(178, 178, 178, 0.42);
+        border: none !important;
+        padding: 0 !important;
+    }
+    .catalog-product-view .price_breakup_grp.price_breakup.a-centers.hidden-xs > a{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+
+    /* start of css to customize the styling of message in cash on delivery section */
+    #show_msg {
+        color: #000000 !important;
+        font-size: 12px !important;
+        font-family: 'Muli', sans-serif !important;
+        float: right !important;
+        position: absolute !important;
+        top: 87px !important;
+        right: 10px !important;
+    }
+
+  
+
+    
+
+   
+
+    .byr_custsize>#customsize {
+        padding: 0px 0px 12px !important;
+        background: none !important;
+        width: 100% !important;
+        margin: 0px 0px 0px 0px !important;
+    }
+
+    .customsize-inner-maindiamond {
+        width: 111px;
+    }
+
+
+
+    /* start of css for cod-serviceability  */
+    .cod-serviceability-input-text {
+        width: 244px;
+        box-sizing: border-box;
+        border: 1px solid #E1E1E1 !important;
+        border-radius: 1px !important;
+        font-size: 16px;
+        height: 40px !important;
+        background-color: #ffffff;
+        background-image: none !important;
+        background-size: 16px 16px !important;
+        background-position: 16px 2px !important;
+        background-repeat: no-repeat !important;
+        padding: 0px 0px !important;
+        margin: 0px 0rem 0px -5px !important;
+        -webkit-transition: none !important;
+        transition: none !important;
+        z-index: 999999 !important;
+    }
+
+    .cod-serviceability-input-text:focus {
+        width: 244px;
+        box-sizing: border-box;
+        border: 1px solid #E1E1E1 !important;
+        border-radius: 1px !important;
+        font-size: 16px;
+        height: 40px !important;
+        background-color: #ffffff;
+        background-image: none !important;
+        background-size: 16px 16px !important;
+        background-position: 16px 2px !important;
+        background-repeat: no-repeat !important;
+        padding: 0px 0px !important;
+        margin: 0px 0rem 0px -5px !important;
+        -webkit-transition: none !important;
+        transition: none !important;
+        z-index: 999999 !important;
+    }
+
+    .cod-serviceability-input-text::placeholder {
+        margin-left: 10px;
+        padding-left: 10px;
+        font-size: 14px;
+        font-family: 'Muli', sans-serif !important;
+        font-weight: normal !important;
+        color: #9A9A9A;
+    }
+
+    /* start of css for cod-serviceability  */
+    #expectedDelDate {
+        position: absolute;
+        right: 55px;
+        top: 855px;
+        color: #636363 !important;
+        font-size: 12px;
+        font-family: 'Muli', sans-serif !important;
+    }
+
+    .malabar-promises-hr {
+        width: 105px;
+        margin-left: 34%;
+        margin-top: -2px;
+        margin-bottom: 7.5px;
+        border: 1px solid rgba(4, 4, 4, .2);
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+    }
+
+    .pdp-promises-container {
+        font-size: 14px;
+        font-family: 'Muli', sans-serif;
+        color: #000000;
+        font-weight: 600;
+        text-align: center;
+        padding: 10px 0px 10px 0px;
+        width: 97%;
+        height: 300px;
+        padding: 0px;
+        /* background: #EDEDED; */
+        margin: 38px 5px 5px 5px;
+        /* border: 1px solid #E6E6E6;*/
+    }
+
+
+
+    .product-view .product-img-box .more-views li a img {
+        border: 2px solid #F3F3F3 !important;
+    }
+
+    .price_breakup_popup li div span {
+        font-size: 14px !important;
+        font-family: 'Muli', sans-serif !important;
+        color: #000000 !important;
+        padding: 0px !important;
+    }
+
+    #price-total-item {
+        float: left !important;
+        font-weight: 700 !important;
+    }
+
+    .price-total-value {
+        float: right !important;
+        font-weight: 700 !important;
+    }
+
+    .total-value {
+        border: none !important;
+    }
+
+    .pdp-hr-product-details {
+        width: 91px;
+        margin-left: 38%;
+        margin-top: 0px;
+        border: 1px solid rgba(4, 4, 4, .1);
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+    }
+
+    .ui-btn-text-maindiamond {
+        border-right: 1px solid #ccc !important;
+        padding-right: 30px;
+        padding-bottom: 6px;
+        padding-top: 0px !important;
+        margin-left: 10px;
+    }
+
+    .ui-btn-text-goldcolour {
+        border-right: 1px solid #ccc !important;
+        padding-right: 20px;
+        padding-bottom: 6px;
+        padding-top: 0px !important;
+        margin-left: 10px;
+        margin-right: 26px;
+    }
+
+    .ui-btn-text-selsize {
+        border-right: 0.5px solid #BCBCBC !important;
+        padding-right: 20px;
+        padding-bottom: 6px;
+        padding-top: 0px !important;
+        margin-left: 10px;
+    }
+
+    .product-code .detail-page-procode {
+        display: inline-block !important;
+        text-align: left !important;
+        width: 52% !important;
+        vertical-align: top !important;
+        position: relative !important;
+        padding-top: 0px !important;
+        margin-top: -15px !important;
+        font-size: 12px !important;
+        font-family: 'Muli', sans-serif !important;
+        color: #000000 !important;
+    }
+
+    .catalog-product-view .availablity_in_stock {
+        margin: 0px !important;
+    }
+
+    .product-view .product-shop .pdp-product-name h1 {
+        margin: 0 !important;
+        color: #232323 !important;
+        text-align: left !important;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 18px !important;
+        font-weight: 600 !important;
+    }
+
+    /* positioning the customized product section  */
+    .mob-customsize.byr_custsize {
+        position: absolute !important;
+        top: 590px !important;
+        background: #ffffff !important;
+        border: 1px solid #00000029 !important;
+        width: 107% !important;
+        margin: 0 auto !important;
+        align-items: center;
+        padding: 5px;
+        left: -18%;
+        right: -18%;
+    }
+
+    .customsize .ring_selsize select {
+        display: inline-block;
+        border: 1px solid #787878 !important;
+        padding: 0;
+        margin: 0;
+        font: inherit;
+        outline: 0;
+        line-height: 1.2;
+        background: #f8f8f8;
+        -webkit-appearance: none;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+    }
+
+    .check_pincode {
+        margin-top: 310px !important;
+    }
+
+    .cod-serviceability {
+        margin: 0px 0px 20px 0px !important;
+        padding: 30px 0px !important;
+        border-radius: 3px !important;
+        background: #FFFFFF;
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(178, 178, 178, 0.42);
+        box-shadow: 0px 0px 5px 0px rgba(178, 178, 178, 0.42);
+    }
+
+    .customizeThisProduct {
+        font-size: 14px !important;
+        font-weight: 600;
+        font-family: 'Muli', sans-serif !important;
+        color: #000000;
+        padding-top: 25px;
+    }
+
+    .price_breakup_title {
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        font-family: 'Muli', sans-serif !important;
+        color: #000000 !important;
+        line-height: 28px !important;
+    }
+
+    #price_breakup_popup .mobile_viewpriceup li {
+        width: 100% !important;
+        display: inline-block;
+        border-bottom: 1px solid #DEDEDE;
+        height: 30px !important;
+        background: #ffffff !important;
+    }
+
+    #price-breakup-total-value {
+        width: 100% !important;
+        display: inline-block;
+        border-bottom: none !important;
+        height: 30px !important;
+        background: #ffffff !important;
+    }
+
+    .price_breakup_popup li div {
+        background: #ffffff !important;
+    }
+
+    .price_breakup_popup_left {
+        display: inline-flex;
+        font-size: 14px !important;
+        font-weight: normal !important;
+        font-family: 'Muli', sans-serif !important;
+        color: #000000;
+        text-align: left !important;
+        float: left !important;
+    }
+
+    .orig_making_charge {
+        display: inline-flex;
+        font-size: 14px !important;
+        font-family: 'Muli', sans-serif !important;
+        color: #000000;
+        float: right;
+    }
+
+    .bis_container-text {
+        width: 50% !important;
+        float: left !important;
+        padding: 0px 0px !important;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 12px !important;
+        font-weight: bold !important;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .bis_container-title {
+        padding: 10px;
+        float: right;
+        border-right: 1px solid #DFDFDF !important;
+    }
+
+    .bis_container-icons {
+        /* border-left: 1px solid #DFDFDF !important; */
+        padding: 0px !important;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .certified-100 {
+        width: 80px !important;
+        height: 54px !important;
+        margin-left: 1px !important;
+        border-left: 1px solid #DFDFDF !important;
+        margin-right: 6px !important;
+    }
+
+    .bis-logo {
+        width: 77px !important;
+        height: 54px !important;
+        padding-left: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    .contact-box-text {
+        display: inline;
+    }
+
+    .contact-box {
+        border: 1px solid #00000029;
+        width: 95% !important;
+        background: #FFFFFF;
+        margin: 0px auto;
+        padding: 0px 10px 0px 10px !important;
+        height: 77px !important;
+        border-radius: 3px !important;
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(178, 178, 178, 0.42);
+        box-shadow: 0px 0px 5px 0px rgba(178, 178, 178, 0.42);
+        margin-bottom: 20px;
+    }
+
+    .contact-call {
+        float: left;
+        width: 50% !important;
+        padding-left: 20px !important;
+        background-image: url(../../images/pdp-icons/pdp-call.svg) !important;
+        background-position: 0px 5px !important;
+        background-repeat: no-repeat !important;
+        background-size: 15px 20px !important;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 14px !important;
+        font-weight: bold !important;
+    }
+
+    .contact-whatsapp {
+        float: right;
+        width: 50%;
+        padding-left: 23px;
+        background-image: url(../../images/pdp-icons/pdp-whatsapp.svg) !important;
+        background-position: 0px 5px !important;
+        background-repeat: no-repeat !important;
+        background-size: 15px 20px !important;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 14px !important;
+        font-weight: bold !important;
+    }
+
+    .contact-text {
+        text-align: left;
+        font-family: 'Muli', sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        padding: 0px;
+        margin: 14px 0px 0px 0px;
+        float: left;
+    }
+
+    .view-price {
+        border: 1px solid #00000029 !important;
+        width: 95% !important;
+        background: #FFFFFF !important;
+        padding: 15px 0px !important;
+        margin: 0px 10px 0px 8px !important;
+    }
+
+
+    #pincode_btn {
+        padding: 10px 25px 10px 25px !important;
+        margin: 0px 0px 0px -10px !important;
+        background: #EEEEEE !important;
+        border: 1px solid #E1E1E1 !important;
+        height: 40px !important;
+    }
+
+    /* start of css for the product details in the product details page */
+    .product-details-text {
+        width: 100% !important;
+        text-align: center;
+        font-size: 14px;
+        font-family: 'Muli', sans-serif !important;
+        font-weight: bold !important;
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+
+    .product-details-pdp {
+        border: 1px solid #00000029;
+        border-radius: 3px !important;
+        width: 95%;
+        background: #FFFFFF;
+        padding: 30px 5px 21px 5px !important;
+        margin: 0px 8px 0px 9px !important;
+    }
+
+    .diamond-information,
+    .metal-information {
+        font-family: 'Muli', sans-serif !important;
+        font-size: 13px !important;
+        font-weight: 600 !important;
+        padding-left: 0px !important;
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+    .metal-information-inner,
+    .diamond-information-inner {
+        width: 100% !important;
+        display: inline !important;
+        border-right: 1px solid #DFDFDF !important;
+    }
+
+    .metal-information-inner-gp,
+    .metal-information-inner-mc,
+    .metal-information-inner-gw,
+    .diamond-information-diamond-colour,
+    .diamond-information-diamond-clarity,
+    .diamond-information-diamond-carat {
+        width: 33% !important;
+        float: left !important;
+    }
+
+    .metal-information-inner-gw {
+        border-left: 1px solid #DFDFDF !important;
+        padding-left: 5px !important;
+        margin-bottom: 31px !important;
+    }
+
+    .metal-information-inner-gp {
+        border-right: 1px solid #DFDFDF;
+    }
+
+    .diamond-information-diamond-carat {
+        border-left: 1px solid #DFDFDF;
+    }
+
+    .diamond-information-diamond-colour {
+        border-right: 1px solid #DFDFDF;
+    }
+
+    .diamond-information-gp-value,
+    .metal-information-gp-value {
+        font-family: 'Muli', sans-serif !important;
+        font-size: 12px !important;
+        text-align: center !important;
+        padding-left: 0px !important;
+        margin: 0px !important;
+        font-weight: normal !important;
+    }
+
+
+    .diamond-information-gp-item,
+    .metal-information-gp-item {
+        font-family: 'Muli', sans-serif !important;
+        font-size: 14px !important;
+        font-weight: bold !important;
+        text-align: center ! important;
+    }
+
+    .customsize .ring_selsize:after {
+        background: #FFFFFF !important;
+        color: #656565 !important;
+        height: 34px !important;
+    }
+
+    .mob-customsize.byr_custsize .mobDisplay .ring_selsize {
+        border: 1px solid #d6d6d6;
+        border-radius: 2px !important;
+        font-weight: 600;
+    }
+
+    /* end of css for the product details in the product details page */
+    .full-product-details {
+        padding-left: 24px !important;
+    }
+
+    /* start of css for the full product details in the product details page */
+    .full-product-details-text-pdp-page {
+        width: 100% !important;
+        text-align: center;
+        font-size: 14px;
+        font-family: 'Muli', sans-serif !important;
+        font-weight: bold !important;
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+
+    .full-product-details-section {
+        float: left !important;
+        width: 100% !important;
+        text-align: left !important;
+        margin-top: 18px !important;
+        padding: 5px 0px 5px 0px !important;
+        color: #343434 !important;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 13px !important;
+        font-weight: 600 !important;
+        line-height: 21px !important;
+    }
+
+    .full-product-details-value {
+        float: left !important;
+        width: 50% !important;
+        text-align: left !important;
+        padding: 5px 0px 0px 0px !important;
+        margin: 0px !important;
+        color: #343434 !important;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 12px !important;
+        font-weight: normal !important;
+        line-height: 8px !important;
+    }
+
+    .product-view .product-img-box .more-views.product-thumbnail-container {
+        width: 95% !important;
+    }
+
+    .full-product-details-item {
+        width: 50% !important;
+        float: left !important;
+        padding: 0px !important;
+        margin: 0px !important;
+        text-align: left;
+        color: #343434 !important;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 12px !important;
+        font-weight: normal !important;
+    }
+
+    .view-product-details-link {
+        width: 100% !important;
+        display: inline-block !important;
+        font-size: 14px !important;
+        text-align: center !important;
+        font-weight: bold !important;
+        font-family: 'Muli', sans-serif !important;
+        margin-left: 0px;
+        margin-top: 35px !important;
+    }
+
+
+    .product-details-title-text {
+        font-family: 'Muli', sans-serif !important;
+        font-size: 13px !important;
+        font-weight: bold !important;
+        text-align: left !important;
+        padding: 0px 0px 0px 5px;
+    }
+
+    /* end of css for the full product details in the product details page */
+    pdp-product-name {
+        display: block;
+    }
+
+    #pb_vat .breakup_content {
+        padding-left: 5px !important;
+    }
+
+    .contact-whatsapp a {
+        text-decoration: none !important;
+    }
+
+    .contact-call a {
+        text-decoration: none !important;
+    }
+
+    .pdp-hr-price_breakup {
+        width: 114px;
+        margin-left: 30%;
+        margin-top: -10px;
+        border: 1px solid rgba(4, 4, 4, .1);
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+    }
+
+    .pdp-hr-customized-product {
+        width: 136px;
+        margin-left: 30%;
+        margin-top: -10px;
+        border: 1px solid rgba(4, 4, 4, .1);
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+    }
+
+    .mobDisplay .ring_selsize .ui-btn-inner {
+        background: none;
+        border: none !important;
+        width: 110px !important;
+        padding: 8px 0px 0px 0px !important;
+        height: 34px !important;
+        margin-top: 0px !important;
+    }
+
+
+
+    .customsize .ring_selsize:after {
+        background: #FFFFFF !important;
+        color: #656565 !important;
+        height: 34px !important;
+        right: 0px !important;
+        top: 0px !important;
+        position: absolute !important;
+        padding: 0px 0px 0px 2px !important;
+    }
+
+    .byr_custsize .choose_customsize {
+        text-align: left !important;
+    }
+}
+
+
+@media screen and (min-width: 401px) and (max-width: 767px) {
+
+    /* start of css for cod-serviceability  */
+    .cod-serviceability-input-text {
+        width: 282px;
+        box-sizing: border-box;
+        border: 1px solid #E1E1E1 !important;
+        border-radius: 1px !important;
+        font-size: 16px;
+        height: 40px !important;
+        background-color: #ffffff;
+        background-image: none !important;
+        background-size: 16px 16px !important;
+        background-position: 16px 2px !important;
+        background-repeat: no-repeat !important;
+        padding: 0px 0px !important;
+        margin: 0px -15px 0px -15px !important;
+        margin-top: 0px !important;
+        -webkit-transition: none !important;
+        transition: none !important;
+        z-index: 999999 !important;
+    }
+
+    .cod-serviceability-input-text:focus {
+        width: 282px;
+        box-sizing: border-box;
+        border: 1px solid #E1E1E1 !important;
+        border-radius: 1px !important;
+        font-size: 16px;
+        height: 40px !important;
+        background-color: #ffffff;
+        background-image: none !important;
+        background-size: 16px 16px !important;
+        background-position: 16px 2px !important;
+        background-repeat: no-repeat !important;
+        padding: 0px 0px !important;
+        margin: 0px -15px 0px -15px !important;
+        margin-top: 0px !important;
+        -webkit-transition: none !important;
+        transition: none !important;
+        z-index: 999999 !important;
+    }
+
+    .cod-serviceability-input-text::placeholder {
+        margin-left: 10px;
+        padding-left: 10px;
+        font-size: 14px;
+        font-family: 'Muli', sans-serif !important;
+        font-weight: normal !important;
+        color: #9A9A9A;
+    }
+
+    /* start of css to customize the styling of message in cash on delivery section */
+    #show_msg {
+        color: #000000 !important;
+        font-size: 12px !important;
+        font-family: 'Muli', sans-serif !important;
+        float: right !important;
+        position: absolute !important;
+        top: 91px !important;
+        right: 20px !important;
+    }
+
+    /* end of css to customize the styling of message in cash on delivery section */
+
+    /* start of css for cod-serviceability  */
+    #expectedDelDate {
+        position: absolute;
+        right: 68px;
+        top: 896px;
+        color: #636363 !important;
+        font-size: 12px;
+        font-family: 'Muli', sans-serif !important;
+        margin: 10px;
+    }
+
+    .product-view .product-img-box .more-views li a img {
+        border: 2px solid #F3F3F3 !important;
+    }
+
+    .price_breakup_popup li div span {
+        font-size: 14px !important;
+        font-family: 'Muli', sans-serif !important;
+        color: #000000 !important;
+        padding: 0px !important;
+    }
+
+    #price-total-item {
+        float: left !important;
+        font-weight: 700 !important;
+    }
+
+    .price-total-value {
+        float: right !important;
+        font-weight: 700 !important;
+    }
+
+    .total-value {
+        border: none !important;
+    }
+
+    .cod-serviceability {
+        margin: 20px 0px 20px -8px !important;
+        padding: 30px 0px !important;
+        border-radius: 3px !important;
+        background: #FFFFFF;
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(178, 178, 178, 0.42);
+        box-shadow: 0px 0px 5px 0px rgba(178, 178, 178, 0.42);
+
+    }
+
+    .pdp-hr-customized-product {
+        width: 120px;
+        margin-left: 32%;
+        margin-top: -10px;
+        border: 1px solid rgba(4, 4, 4, .1);
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+    }
+   
+    .ui-btn-text-maindiamond {
+        border-right: 1px solid #ccc !important;
+        padding-right: 47px;
+        padding-bottom: 5px;
+        padding-top: 5px !important;
+        margin-left: 10px;
+    }
+
+    .ui-btn-text-goldcolour {
+        border-right: 1px solid #ccc !important;
+        padding-right: 19px;
+        padding-bottom: 5px;
+        padding-top: 5px !important;
+        margin-left: 10px;
+        margin-right: 32px;
+    }
+
+    .ui-btn-text-selsize {
+        border-right: 1px solid #ccc !important;
+        padding-right: 41px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        margin-left: 0px;
+        margin-right: 1px;
+    }
+
+
+    .byr_custsize>#customsize {
+        padding: 0px 0px 0px 0px !important;
+        width: 90% !important;
+        margin: 0px 17px 10px -20px !important;
+        background: none !important;
+    }
+
+    .choose_customsize gldclrlabel {
+        text-align: left;
+    }
+
+    .choose_customsize {
+        text-align: left;
+    }
+
+    .product-code .detail-page-procode {
+        display: inline-block !important;
+        text-align: left !important;
+        width: 52% !important;
+        vertical-align: top !important;
+        position: relative !important;
+        padding-top: 0px !important;
+        margin-top: -20px !important;
+        font-size: 12px !important;
+        font-family: 'Muli', sans-serif !important;
+        color: #000000 !important;
+    }
+
+    .catalog-product-view .availablity_in_stock {
+        margin: 0px !important;
+    }
+
+    .product-view .product-shop .pdp-product-name h1 {
+        margin: 0 !important;
+        color: #232323 !important;
+        text-align: left !important;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 18px !important;
+        font-weight: 600 !important;
+    }
+
+    /* positioning the customized product section  */
+    .mob-customsize.byr_custsize {
+        position: absolute !important;
+        top: 645px !important;
+        background: #ffffff !important;
+        border-top: 1px solid #00000029 !important;
+        border-bottom: 1px solid #00000029 !important;
+        width: 100% !important;
+        margin: 0px 0px 0px 0px !important;
+        padding: 0px;
+        left: 0px;
+    }
+
+    .customsize .ring_selsize select {
+        display: inline-block;
+        border: 1px solid #787878 !important;
+        padding: 0;
+        margin: 0;
+        font: inherit;
+        outline: 0;
+        line-height: 1.2;
+        background: #f8f8f8;
+        -webkit-appearance: none;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+    }
+
+    .price_breakup_title {
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        font-family: 'Muli', sans-serif !important;
+        color: #000000 !important;
+        line-height: 28px !important;
+    }
+
+    .check_pincode {
+        margin-top: 304px !important;
+    }
+
+    .customizeThisProduct {
+        font-size: 14px !important;
+        font-weight: 600;
+        font-family: 'Muli', sans-serif !important;
+        color: #000000;
+        padding-top: 25px;
+    }
+
+    .pdp-hr-customized-product {
+        width: 142px;
+        margin-left: 31%;
+        margin-top: -10px;
+        border: 1px solid rgba(4, 4, 4, 0.1);
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+    }
+
+    #price_breakup_popup .mobile_viewpriceup li {
+        width: 100% !important;
+        display: inline-block;
+        border-bottom: 1px solid #DEDEDE;
+        height: 30px !important;
+        background: #ffffff !important;
+    }
+
+    #price-breakup-total-value {
+        width: 100% !important;
+        display: inline-block;
+        border-bottom: none !important;
+        height: 30px !important;
+        background: #ffffff !important;
+    }
+
+    .price_breakup_popup li div {
+        background: #ffffff !important;
+    }
+
+    .price_breakup_popup_left {
+        display: inline-flex;
+        font-size: 14px !important;
+        font-weight: normal !important;
+        font-family: 'Muli', sans-serif !important;
+        color: #000000;
+        text-align: left !important;
+        float: left !important;
+    }
+
+    .price_breakup_popup_right,
+    .orig_diamond_charge,
+    .orig_making_charge {
+        display: inline-flex;
+        width: 50%;
+        font-size: 14px !important;
+        font-weight: normal !important;
+        font-family: 'Muli', sans-serif !important;
+        color: #000000;
+        float: right !important;
+        text-align: right !important;
+    }
+
+    .orig_making_charge {
+        display: inline-flex;
+        width: 50%;
+        font-size: 14px !important;
+        font-family: 'Muli', sans-serif !important;
+        color: #000000;
+        float: right;
+    }
+
+
+    .bis_container-text {
+        width: 50% !important;
+        float: left !important;
+        padding: 0px 0px !important;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 12px !important;
+        font-weight: bold !important;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .bis_container-title {
+        padding: 10px;
+        float: right;
+        border-right: 1px solid #DFDFDF !important;
+    }
+
+    .bis_container-icons {
+        /* border-left: 1px solid #DFDFDF !important; */
+        padding: 0px !important;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .certified-100 {
+        width: 80px !important;
+        height: 54px !important;
+        margin-left: 1px !important;
+        border-left: 1px solid #DFDFDF !important;
+        margin-right: 6px !important;
+    }
+
+    .bis-logo {
+        width: 95px !important;
+        height: 54px !important;
+        padding-left: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    .contact-box-text {
+        display: inline;
+    }
+
+    .contact-box {
+        border: 1px solid #00000029;
+        width: 95% !important;
+        background: #FFFFFF;
+        margin: 0px auto;
+        padding: 0px 10px 0px 10px !important;
+        height: 77px !important;
+        border-radius: 3px !important;
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(178, 178, 178, 0.42);
+        box-shadow: 0px 0px 5px 0px rgba(178, 178, 178, 0.42);
+        margin-bottom: 20px;
+    }
+
+    .contact-call {
+        float: left;
+        width: 50% !important;
+        padding: 11px 0px 0px 28px !important;
+        background-image: url(../../images/pdp-icons/pdp-call.svg) !important;
+        background-position: 7px 11px !important;
+        background-repeat: no-repeat !important;
+        background-size: 15px 20px !important;
+        font-family: 'Muli', sans-serif !important;
+        font-weight: 600 !important;
+        font-size: 14px !important;
+    }
+
+    .contact-call a {
+        text-decoration: none !important;
+    }
+
+    .contact-whatsapp {
+        float: right;
+        width: 50%;
+        padding: 11px 0px 0px 23px !important;
+        background-image: url(../../images/pdp-icons/pdp-whatsapp.svg) !important;
+        background-position: 1px 10px !important;
+        background-repeat: no-repeat !important;
+        background-size: 15px 20px !important;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 14px !important;
+        font-weight: 600 !important;
+    }
+
+    .contact-whatsapp a {
+        text-decoration: none !important;
+    }
+
+    .contact-text {
+        text-align: left;
+        font-family: 'Muli', sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        padding: 0px;
+        margin: 14px 0px 0px 0px;
+        float: left;
+    }
+
+    .view-price {
+        border: 1px solid #00000029 !important;
+        width: 94% !important;
+        background: #FFFFFF !important;
+        padding: 15px 0px !important;
+        margin: 0px 12px;
+    }
+
+
+    #pincode_btn {
+        padding: 10px 25px 10px 25px !important;
+        margin: 0px !important;
+        background: #EEEEEE !important;
+        border: 1px solid #E1E1E1 !important;
+        height: 40px !important;
+    }
+
+    /* start of css for the product details in the product details page */
+    .product-details-text {
+        width: 100% !important;
+        text-align: center;
+        font-size: 14px;
+        font-family: 'Muli', sans-serif !important;
+        font-weight: bold !important;
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+
+    .pdp-hr-product-details {
+        width: 91px;
+        margin-left: 38%;
+        margin-top: 0px;
+        border: 1px solid rgba(4, 4, 4, .1);
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+    }
+
+    .product-details-pdp {
+        border: 1px solid #00000029;
+        border-radius: 3px !important;
+        width: 94%;
+        background: #FFFFFF;
+        padding: 30px 0px 21px 0px !important;
+        margin: 0px 12px;
+    }
+
+    .diamond-information,
+    .metal-information {
+        font-family: 'Muli', sans-serif !important;
+        font-size: 13px !important;
+        font-weight: 600 !important;
+        padding-left: 0px !important;
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+    .metal-information-inner,
+    .diamond-information-inner {
+        width: 100% !important;
+        display: inline !important;
+        border-right: 1px solid #DFDFDF !important;
+    }
+
+    .metal-information-inner-gp,
+    .metal-information-inner-mc,
+    .metal-information-inner-gw,
+    .diamond-information-diamond-colour,
+    .diamond-information-diamond-clarity,
+    .diamond-information-diamond-carat {
+        width: 33% !important;
+        float: left !important;
+    }
+
+    .metal-information-inner-gw {
+        border-left: 1px solid #DFDFDF;
+        padding-left: 5px !important;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 12px !important;
+        padding-left: 16px !important;
+        font-weight: normal !important;
+        margin-bottom: 28px !important;
+    }
+
+    .metal-information-inner-gp {
+        border-right: 1px solid #DFDFDF;
+    }
+
+    .diamond-information-diamond-carat {
+        border-left: 1px solid #DFDFDF;
+    }
+
+    .diamond-information-diamond-colour {
+        border-right: 1px solid #DFDFDF;
+    }
+
+    .diamond-information-gp-value,
+    .metal-information-gp-value {
+        font-family: 'Muli', sans-serif !important;
+        font-size: 12px !important;
+        text-align: center !important;
+        padding-left: 0px !important;
+        margin: 0px !important;
+        font-weight: normal !important;
+    }
+
+    .diamond-information-gp-item,
+    .metal-information-gp-item {
+        font-family: 'Muli', sans-serif !important;
+        font-size: 14px !important;
+        font-weight: bold !important;
+        text-align: center !important;
+    }
+
+    .customsize .ring_selsize:after {
+        background: #FFFFFF !important;
+        color: #656565 !important;
+        height: 34px !important;
+    }
+
+    #main_gold_color {
+        width: 116px;
+    }
+
+    #customsize-inner-maindiamond {
+        width: 130px;
+    }
+
+    .mob-customsize.byr_custsize .mobDisplay .ring_selsize {
+        border: 1px solid #d6d6d6;
+        border-radius: 2px !important;
+        font-weight: 600;
+    }
+
+    /* end of css for the product details in the product details page */
+
+    .full-product-details {
+        padding-left: 26px !important;
+    }
+
+    /* start of css for the full product details in the product details page */
+
+    .full-product-details-text-pdp-page {
+        font-family: 'Muli', sans-serif !important;
+        font-size: 13px !important;
+        font-weight: 600 !important;
+        text-align: center;
+        margin: 0px 0px 33px 0px !important;
+        padding: 0px !important;
+    }
+
+    .full-product-details-section {
+        float: left !important;
+        width: 100% !important;
+        text-align: left !important;
+        margin-top: 18px !important;
+        padding: 5px 0px 5px 0px !important;
+        color: #343434 !important;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 13px !important;
+        font-weight: 600 !important;
+        line-height: 21px !important;
+    }
+
+    .full-product-details-value {
+        float: left !important;
+        width: 50% !important;
+        text-align: left !important;
+        padding: 5px 0px 0px 0px !important;
+        margin: 0px !important;
+        color: #343434 !important;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 12px !important;
+        font-weight: normal !important;
+        line-height: 8px !important;
+    }
+
+    .product-view .product-img-box .more-views.product-thumbnail-container {
+        width: 95% !important;
+    }
+
+    .full-product-details-item {
+        width: 50% !important;
+        float: left !important;
+        padding: 5px 0px 0px 0px !important;
+        margin: 0px !important;
+        text-align: left;
+        color: #343434 !important;
+        font-family: 'Muli', sans-serif !important;
+        font-size: 12px !important;
+        font-weight: normal !important;
+    }
+
+    .view-product-details-link {
+        width: 100% !important;
+        display: inline-block !important;
+        font-size: 14px !important;
+        text-align: center !important;
+        font-weight: bold !important;
+        font-family: 'Muli', sans-serif !important;
+        margin-left: 0px;
+        margin-top: 35px !important;
+        text-decoration: none;
+    }
+    .view-product-details-link > span{
+        text-decoration: underline;
+    }
+
+    .malabar-promises-hr {
+        width: 109px;
+        margin-left: 34%;
+        margin-bottom: 7.5px;
+        margin-top: -8px;
+        border: 1px solid rgba(4, 4, 4, .2);
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+    }
+
+    .pdp-promises-container {
+        font-size: 14px;
+        font-family: 'Muli', sans-serif;
+        color: #000000;
+        font-weight: 600;
+        text-align: center;
+        padding: 10px 0px 10px 0px;
+        width: 97%;
+        height: 300px;
+        padding: 0px;
+        /* background: #EDEDED; */
+        margin: 38px 5px 5px 5px;
+        /* border: 1px solid #E6E6E6;*/
+    }
+
+    .pdp-promises-header {
+        font-size: 14px;
+        font-weight: 700;
+        font-family: 'Muli', sans-serif !important;
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .you-may-like-this-text {
+        font-size: 14px;
+        font-weight: 700;
+        font-family: 'Muli', sans-serif !important;
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .you-may-like-this-hr {
+        width: 109px;
+        margin-left: 34%;
+        margin-bottom: 7.5px;
+        margin-top: -12px;
+        border: 1px solid rgba(4, 4, 4, .2);
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+    }
+
+    /* end of css for the full product details in the product details page */
+    .product-details-title-text {
+        font-family: 'Muli', sans-serif !important;
+        font-size: 13px !important;
+        font-weight: 600 !important;
+        padding-left: 28px;
+    }
+
+    #pb_vat .breakup_content {
+        padding-left: 6px !important;
+    }
+
+    .pdp-hr-price_breakup {
+        width: 120px;
+        margin-left: 32%;
+        margin-top: -10px;
+        border: 1px solid rgba(4, 4, 4, .1);
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+    }
+
+    .mobDisplay .ring_selsize .ui-btn-inner {
+        background: none;
+        border: none !important;
+        padding: 8px 0px 0px 0px !important;
+        height: 34px !important;
+        margin-top: 0px !important;
+    }
+
+    .ui-btn-text-selsize {
+        border-right: 0.5px solid #BCBCBC !important;
+        padding-right: 24px;
+        padding-bottom: 6px;
+        padding-top: 0px !important;
+        margin-left: 10px;
+    }
+
+    .customsize .ring_selsize:after {
+        background: #FFFFFF !important;
+        color: #656565 !important;
+        height: 34px !important;
+        right: 0px !important;
+        top: 0px !important;
+        position: absolute !important;
+        padding: 0px 0px 0px 2px !important;
+    }
+
+    .byr_custsize .choose_customsize {
+        text-align: left !important;
+    }
+}
+
