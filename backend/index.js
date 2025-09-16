@@ -38,7 +38,6 @@ nextApp.prepare().then(() => {
 
   const upload = multer();
 
-  console.log("check path -->",path.join(__dirname, ".."))
   
   app.use("/uploads", express.static(path.join(process.cwd(), "uploads")));
 
