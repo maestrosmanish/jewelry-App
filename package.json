@@ -2,14 +2,15 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "concurrently \"npm run backend\" \"next dev\"",
-    "backend": "nodemon backend/index.js",
-    "build": "next build && npx --prefix backend prisma generate --schema=backend/prisma/schema.prisma",
-    "start": "cross-env NODE_ENV=production node backend/index.js",
-    "postinstall": "npx --prefix backend prisma generate --schema=backend/prisma/schema.prisma"
-  },
+"scripts": {
+  "dev": "concurrently \"npm run backend\" \"next dev\"",
+  "backend": "nodemon backend/index.js",
+  "build": "next build && npx --prefix backend prisma generate --schema=backend/prisma/schema.prisma",
+  "start": "cross-env NODE_ENV=production node backend/index.js",
+ "postinstall": "cd backend && npm install && npm run generate"
 
+}
+,
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
