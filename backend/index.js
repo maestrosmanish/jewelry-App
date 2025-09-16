@@ -5,7 +5,7 @@ import cors from "cors";
 import path from "path";
 import dotenv from "dotenv";
 import multer from "multer";
-import main from './config/db.js';
+
 // Routes
 import userRoute from "./routes/userRoute/userRoutes.js";
 import productRoute from "./routes/productRoute/productRoutes.js";
