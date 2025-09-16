@@ -23,7 +23,7 @@ const dev = process.env.NODE_ENV !== "production";
 const prisma = new PrismaClient();
 // backend/index.js
 const nextApp = next({
-  dev,
+  dev:false,
   dir: path.join(__dirname, "..")
 });
 
@@ -38,7 +38,8 @@ nextApp.prepare().then(() => {
 
   const upload = multer();
 
-
+  console.log("check path -->",path.join(__dirname, ".."))
+  
   app.use("/uploads", express.static(path.join(process.cwd(), "uploads")));
 
   app.use("/api", userRoute);
@@ -51,7 +52,12 @@ nextApp.prepare().then(() => {
 
 app.use((req, res) => {
   return handle(req, res);
-})
+}) 
+
+app.use((err, req, res, next) => {
+  console.error(err);
+  res.status(500).json({ error: 'Internal Server Error' });
+});
 
   const port = process.env.PORT || 3000;
   app.listen(port, () => {
