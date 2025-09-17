@@ -1,6 +1,6 @@
 import express from "express";
 import { authMiddleware } from "../../middlewares/authMiddleware/authMiddleware.js";
-import { PrismaClient } from "../../generated/prisma/index.js";
+import { PrismaClient } from "@prisma/client";
 import { Router } from "express";
 import upload from "../../utils/multer.js";
 const cartRoute = Router();

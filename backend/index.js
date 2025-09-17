@@ -1,6 +1,7 @@
 import express from "express";
 import next from "next";
-import { PrismaClient } from "./generated/prisma/index.js"; // ✅ prisma client
+import { PrismaClient } from "@prisma/client";
+// ✅ prisma client
 import cors from "cors";
 import path from "path";
 import dotenv from "dotenv";

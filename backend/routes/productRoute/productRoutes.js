@@ -1,6 +1,6 @@
 import express from 'express';
 import { Router } from 'express';
-import { PrismaClient } from '../../generated/prisma/index.js';
+import { PrismaClient } from "@prisma/client";
 import { authMiddleware } from '../../middlewares/authMiddleware/authMiddleware.js';
 import { format } from 'date-fns';
 import { isAdmin } from '../../middlewares/adminMiddleware/isAdmin.js';
