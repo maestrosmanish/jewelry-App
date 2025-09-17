@@ -5,10 +5,11 @@
 "scripts": {
   "dev": "concurrently \"npm run backend\" \"next dev\"",
   "backend": "nodemon backend/index.js",
-"build": "next build",
+  "build": "next build",
   "start": "concurrently \"node backend/index.js\" \"next start\"",
-  "postinstall": "npx --prefix backend prisma generate --schema=backend/prisma/schema.prisma || true"
+  "postinstall": "cd backend && npm install && npx prisma generate"
 }
+
 
 ,
   "dependencies": {
