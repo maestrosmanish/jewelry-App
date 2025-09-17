@@ -6,10 +6,10 @@
   "dev": "concurrently \"npm run backend\" \"next dev\"",
   "backend": "nodemon backend/index.js",
   "build": "next build && npx --prefix backend prisma generate --schema=backend/prisma/schema.prisma",
-  "start": "cross-env NODE_ENV=production node backend/index.js",
- "postinstall": "prisma generate --schema=backend/prisma/schema.prisma || true"
-
+  "start": "concurrently \"node backend/index.js\" \"next start\"",
+  "postinstall": "npx --prefix backend prisma generate --schema=backend/prisma/schema.prisma || true"
 }
+
 ,
   "dependencies": {
     "@emotion/react": "^11.14.0",
