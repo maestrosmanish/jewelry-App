@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
 "scripts": {
-  "dev": "node backend/index.js",
-  "start": "NODE_ENV=production node backend/index.js",
-  "build": "next build && npx prisma generate --schema=backend/prisma/schema.prisma",
-  "postinstall": "cd backend && npm install && npx prisma generate"
+  "dev": "concurrently \"npm run backend\" \"next dev\"",
+  "backend": "nodemon backend/index.js",
+  "build": "next build",
+  "start": "node backend/index.js",
+  "postinstall": "cd backend && npm install && npx prisma generate || true"
 }
 ,
   "dependencies": {
