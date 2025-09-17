@@ -53,7 +53,7 @@ userRoute.post('/user/register', upload.none(), async (req, res) => {
 
    //user login
 userRoute.post('/user/login', upload.none() ,async (req,res)=>{
-
+   
     const { email,password} = req.body; 
     console.log(req.body);
     const finduser = await prisma.user.findUnique({ where : {email:email}});
@@ -196,7 +196,7 @@ userRoute.put('/user/:id', upload.none(), authMiddleware, async (req, res) => {
     try{
        const getalluser = await prisma.user.findMany();
         res.status(200).json(getalluser); 
-        console.log(getalluser);
+        // console.log(getalluser);
   
      } catch(error)
         {

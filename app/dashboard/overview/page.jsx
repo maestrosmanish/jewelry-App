@@ -23,7 +23,7 @@ export default function Section() {
   const baseUrl = process.env.NEXT_PUBLIC_API_URL;
   const userIcon = "/assets/img/user.png";
   const boxIcon = "/assets/img/boxes.png";
-  
+  console.log(baseUrl)
     useEffect(() => {
   
     fetchStats();
@@ -35,7 +35,7 @@ const fetchStats = async () => {
   if (!token) {
     window.location.href = '/signin';
     return;
-  }
+  } 
     try {
       const response = await fetch(`${baseUrl}/stats`, {
         method: 'GET',
@@ -247,7 +247,7 @@ const fetchStats = async () => {
       <div className="flex flex-col justify-center gap-2">
         
         {/* Stats Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 w-full">
+        <div className="grid w-full grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-4">
           
           {/* Customers Card */}
           <div className="flex flex-col justify-between p-4 text-black bg-white rounded-lg">
