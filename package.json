@@ -5,9 +5,10 @@
 "scripts": {
   "dev": "concurrently \"npm run backend\" \"next dev\"",
   "backend": "nodemon backend/index.js",
- "build": "next build && npx --prefix backend prisma generate --schema=backend/prisma/schema.prisma",
+ "build": "next build",
   "start": "cross-env NODE_ENV=production node backend/index.js",
- "postinstall": "npx --prefix backend prisma generate --schema=backend/prisma/schema.prisma"
+"postinstall": "cd backend && npm install || true"
+
 
 }
 ,
