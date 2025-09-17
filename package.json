@@ -7,7 +7,9 @@
   "backend": "nodemon backend/index.js",
   "build": "next build",
   "start": "node backend/index.js",
-  "postinstall": "cd backend && npm install && npx prisma generate || true"
+  "postinstall": "npm --prefix backend install && npx --prefix backend prisma generate --schema=backend/prisma/schema.prisma || true"
+
+
 }
 ,
   "dependencies": {
