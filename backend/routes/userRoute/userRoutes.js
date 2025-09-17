@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 
 import { Router } from 'express';
 import { sendOTPEmail } from '../../utils/sendOTPEmail.js';
-import { PrismaClient } from '../../generated/prisma/index.js';
+import { PrismaClient } from "@prisma/client";
 import { authMiddleware } from '../../middlewares/authMiddleware/authMiddleware.js';
 import { isAdmin } from '../../middlewares/adminMiddleware/isAdmin.js';
 import upload from '../../utils/multer.js';
