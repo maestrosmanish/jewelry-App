@@ -51,7 +51,7 @@ nextApp.prepare().then(() => {
   app.use("/api", statusRouter);
 
   // Next.js pages
-  app.all("/", (req, res) => handle(req, res));
+  app.all("*", (req, res) => handle(req, res));
 
   // Error handling
   app.use((err, req, res, next) => {
