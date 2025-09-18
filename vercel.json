@@ -4,11 +4,7 @@
   ],
   "functions": {
     "api/express.js": {
-      "includeFiles": [
-        "backend/**/*.js",
-        "backend/routes/**/*.js",
-        "backend/prisma/schema.prisma"
-      ]
+      "includeFiles": "backend/**"
     }
   }
 }
