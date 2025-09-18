@@ -49,6 +49,6 @@ node_modules/
 # Backend ignores
 backend/node_modules/
 backend/package-lock.json
-
+api/
 # Prisma
 backend/generated/
