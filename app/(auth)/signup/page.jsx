@@ -28,7 +28,7 @@ const AdminForm = () => {
   const [showAddress, setShowAddress] = useState(false);
   // const token = localStorage.getItem('adminToken');
   const baseUrl = process.env.NEXT_PUBLIC_API_URL;
-
+   console.log(baseUrl)
   const validateForm = () => {
     const newErrors = {};
     
@@ -192,19 +192,19 @@ const handleSubmit = async (e) => {
 
   return (
     <div className='bg-[#E8EFFF] min-h-screen py-5  flex justify-center items-center '>
-    <div className="max-w-3xl mx-auto bg-white rounded-xl shadow-md  p-6 space-y-6 overflow-y-auto scrollbar-hide">
+    <div className="max-w-3xl p-6 mx-auto space-y-6 overflow-y-auto bg-white shadow-md rounded-xl scrollbar-hide">
       <div className="text-center">
         <h1 className="text-2xl font-bold text-gray-800">Admin Registration</h1>
         <p className="text-gray-600">Create a new admin account</p>
       </div>
       
       <form onSubmit={handleSubmit} className="space-y-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">Full Name *</label>
+            <label className="block mb-1 text-sm font-medium text-gray-700">Full Name *</label>
             <div className="relative">
-              <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                <i className="fas fa-user text-gray-400"></i>
+              <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                <i className="text-gray-400 fas fa-user"></i>
               </div>
               <input
                 type="text"
@@ -219,14 +219,14 @@ const handleSubmit = async (e) => {
                 placeholder="Enter full name"
               />
             </div>
-            {errors.fullName && <p className="text-red-500 text-xs mt-1">{errors.fullName}</p>}
+            {errors.fullName && <p className="mt-1 text-xs text-red-500">{errors.fullName}</p>}
           </div>
           
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">Email *</label>
+            <label className="block mb-1 text-sm font-medium text-gray-700">Email *</label>
             <div className="relative">
-              <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                <i className="fas fa-envelope text-gray-400"></i>
+              <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                <i className="text-gray-400 fas fa-envelope"></i>
               </div>
               <input
                 type="email"
@@ -241,16 +241,16 @@ const handleSubmit = async (e) => {
                 placeholder="Enter email address"
               />
             </div>
-            {errors.email && <p className="text-red-500 text-xs mt-1">{errors.email}</p>}
+            {errors.email && <p className="mt-1 text-xs text-red-500">{errors.email}</p>}
           </div>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">Phone *</label>
+            <label className="block mb-1 text-sm font-medium text-gray-700">Phone *</label>
             <div className="relative">
-              <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                <i className="fas fa-phone text-gray-400"></i>
+              <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                <i className="text-gray-400 fas fa-phone"></i>
               </div>
               <input
                 type="tel"
@@ -265,11 +265,11 @@ const handleSubmit = async (e) => {
                 placeholder="Enter phone number"
               />
             </div>
-            {errors.phone && <p className="text-red-500 text-xs mt-1">{errors.phone}</p>}
+            {errors.phone && <p className="mt-1 text-xs text-red-500">{errors.phone}</p>}
           </div>
           
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">Role</label>
+            <label className="block mb-1 text-sm font-medium text-gray-700">Role</label>
             <select
               name="role"
               value={formData.role}
@@ -282,12 +282,12 @@ const handleSubmit = async (e) => {
           </div>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">Password *</label>
+            <label className="block mb-1 text-sm font-medium text-gray-700">Password *</label>
             <div className="relative">
-              <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                <i className="fas fa-lock text-gray-400"></i>
+              <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                <i className="text-gray-400 fas fa-lock"></i>
               </div>
               <input
                 type="password"
@@ -302,14 +302,14 @@ const handleSubmit = async (e) => {
                 placeholder="Enter password"
               />
             </div>
-            {errors.password && <p className="text-red-500 text-xs mt-1">{errors.password}</p>}
+            {errors.password && <p className="mt-1 text-xs text-red-500">{errors.password}</p>}
           </div>
           
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">Confirm Password *</label>
+            <label className="block mb-1 text-sm font-medium text-gray-700">Confirm Password *</label>
             <div className="relative">
-              <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                <i className="fas fa-lock text-gray-400"></i>
+              <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                <i className="text-gray-400 fas fa-lock"></i>
               </div>
               <input
                 type="password"
@@ -324,7 +324,7 @@ const handleSubmit = async (e) => {
                 placeholder="Confirm password"
               />
             </div>
-            {errors.confirmPassword && <p className="text-red-500 text-xs mt-1">{errors.confirmPassword}</p>}
+            {errors.confirmPassword && <p className="mt-1 text-xs text-red-500">{errors.confirmPassword}</p>}
           </div>
         </div>
         
@@ -335,9 +335,9 @@ const handleSubmit = async (e) => {
             name="isActive"
             checked={formData.isActive}
             onChange={handleChange}
-            className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
+            className="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
           />
-          <label htmlFor="isActive" className="ml-2 block text-sm text-gray-700">
+          <label htmlFor="isActive" className="block ml-2 text-sm text-gray-700">
             Account is active
           </label>
         </div>
@@ -348,19 +348,19 @@ const handleSubmit = async (e) => {
             id="showAddress"
             checked={showAddress}
             onChange={() => setShowAddress(!showAddress)}
-            className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
+            className="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
           />
-          <label htmlFor="showAddress" className="ml-2 block text-sm text-gray-700">
+          <label htmlFor="showAddress" className="block ml-2 text-sm text-gray-700">
             Add address information
           </label>
         </div>
         
         {showAddress && (
-          <div className="border-t pt-4 mt-4">
-            <h3 className="text-lg font-medium text-gray-800 mb-4">Address Information</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="pt-4 mt-4 border-t">
+            <h3 className="mb-4 text-lg font-medium text-gray-800">Address Information</h3>
+            <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">Full Name *</label>
+                <label className="block mb-1 text-sm font-medium text-gray-700">Full Name *</label>
                 <input
                   type="text"
                   name="address.fullName"
@@ -373,11 +373,11 @@ const handleSubmit = async (e) => {
                   }`}
                   placeholder="Name for address"
                 />
-                {errors['address.fullName'] && <p className="text-red-500 text-xs mt-1">{errors['address.fullName']}</p>}
+                {errors['address.fullName'] && <p className="mt-1 text-xs text-red-500">{errors['address.fullName']}</p>}
               </div>
               
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">Phone *</label>
+                <label className="block mb-1 text-sm font-medium text-gray-700">Phone *</label>
                 <input
                   type="tel"
                   name="address.phone"
@@ -390,11 +390,11 @@ const handleSubmit = async (e) => {
                   }`}
                   placeholder="Phone for address"
                 />
-                {errors['address.phone'] && <p className="text-red-500 text-xs mt-1">{errors['address.phone']}</p>}
+                {errors['address.phone'] && <p className="mt-1 text-xs text-red-500">{errors['address.phone']}</p>}
               </div>
               
               <div className="md:col-span-2">
-                <label className="block text-sm font-medium text-gray-700 mb-1">Street Address *</label>
+                <label className="block mb-1 text-sm font-medium text-gray-700">Street Address *</label>
                 <input
                   type="text"
                   name="address.street"
@@ -407,11 +407,11 @@ const handleSubmit = async (e) => {
                   }`}
                   placeholder="Street address"
                 />
-                {errors['address.street'] && <p className="text-red-500 text-xs mt-1">{errors['address.street']}</p>}
+                {errors['address.street'] && <p className="mt-1 text-xs text-red-500">{errors['address.street']}</p>}
               </div>
               
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">City *</label>
+                <label className="block mb-1 text-sm font-medium text-gray-700">City *</label>
                 <input
                   type="text"
                   name="address.city"
@@ -424,11 +424,11 @@ const handleSubmit = async (e) => {
                   }`}
                   placeholder="City"
                 />
-                {errors['address.city'] && <p className="text-red-500 text-xs mt-1">{errors['address.city']}</p>}
+                {errors['address.city'] && <p className="mt-1 text-xs text-red-500">{errors['address.city']}</p>}
               </div>
               
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">State *</label>
+                <label className="block mb-1 text-sm font-medium text-gray-700">State *</label>
                 <input
                   type="text"
                   name="address.state"
@@ -441,11 +441,11 @@ const handleSubmit = async (e) => {
                   }`}
                   placeholder="State"
                 />
-                {errors['address.state'] && <p className="text-red-500 text-xs mt-1">{errors['address.state']}</p>}
+                {errors['address.state'] && <p className="mt-1 text-xs text-red-500">{errors['address.state']}</p>}
               </div>
               
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">Pincode *</label>
+                <label className="block mb-1 text-sm font-medium text-gray-700">Pincode *</label>
                 <input
                   type="text"
                   name="address.pincode"
@@ -458,7 +458,7 @@ const handleSubmit = async (e) => {
                   }`}
                   placeholder="Pincode"
                 />
-                {errors['address.pincode'] && <p className="text-red-500 text-xs mt-1">{errors['address.pincode']}</p>}
+                {errors['address.pincode'] && <p className="mt-1 text-xs text-red-500">{errors['address.pincode']}</p>}
               </div>
             </div>
           </div>
@@ -473,27 +473,27 @@ const handleSubmit = async (e) => {
         >
           {isSubmitting ? (
             <>
-              <i className="fas fa-spinner fa-spin mr-2"></i>
+              <i className="mr-2 fas fa-spinner fa-spin"></i>
               Processing...
             </>
           ) : (
             <>
-              <i className="fas fa-user-plus mr-2"></i>
+              <i className="mr-2 fas fa-user-plus"></i>
               Create Account
             </>
           )}
         </button>
         
         {submitStatus === 'success' && (
-          <div className="p-3 mt-4 bg-green-100 text-green-700 rounded-lg flex items-center">
-            <i className="fas fa-check-circle mr-2"></i>
+          <div className="flex items-center p-3 mt-4 text-green-700 bg-green-100 rounded-lg">
+            <i className="mr-2 fas fa-check-circle"></i>
             Account created successfully!
           </div>
         )}
         
         {submitStatus === 'error' && (
-          <div className="p-3 mt-4 bg-red-100 text-red-700 rounded-lg flex items-center">
-            <i className="fas fa-exclamation-circle mr-2"></i>
+          <div className="flex items-center p-3 mt-4 text-red-700 bg-red-100 rounded-lg">
+            <i className="mr-2 fas fa-exclamation-circle"></i>
             There was an error creating the account. Please try again.
           </div>
         )}

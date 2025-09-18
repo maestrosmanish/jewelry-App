@@ -20,6 +20,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const dev = process.env.NODE_ENV !== "production";
+console.log(dev);
 const prisma = new PrismaClient();
 
 // Next.js app setup

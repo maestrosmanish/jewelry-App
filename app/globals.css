@@ -1,4 +1,8 @@
 @import "tailwindcss";
+
+
+/* custom styles yahan */
+
 .outline-none{
     box-shadow: none !important;
     outline: none !important;
