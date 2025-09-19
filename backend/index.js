@@ -15,7 +15,7 @@ import orderRoute from "./routes/orderRoute/orderRoute.js";
 import statusRouter from "./routes/statusRoute/statusRoutes.js";
 import { fileURLToPath } from "url";
 
-dotenv.config();
+dotenv.config({ path: path.join(process.cwd(), "../.env") });
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -30,7 +30,8 @@ const nextApp = next({
 });
 
 const handle = nextApp.getRequestHandler();
-  const app = express();
+  const app = express(); 
+  console.log(process.env.DATABASE_URL);
 nextApp.prepare().then(() => {
 
 
