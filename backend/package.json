@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
  "scripts": {
-    "dev": "nodemon index.js",
+    "dev": "node index.js",
     "generate": "prisma generate --schema=prisma/schema.prisma",
-    "start": "cross-env NODE_ENV=production node index.js"
+    "start": " NODE_ENV=production node index.js"
   },
   "keywords": [],
   "author": "",
