@@ -30,9 +30,9 @@ const nextApp = next({
 });
 
 const handle = nextApp.getRequestHandler();
-
-nextApp.prepare().then(() => {
   const app = express();
+nextApp.prepare().then(() => {
+
 
   // Middlewares
   app.use(cors());
