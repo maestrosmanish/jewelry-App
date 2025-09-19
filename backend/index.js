@@ -63,10 +63,15 @@ app.use((req, res) => {
     console.error(err);
     res.status(500).json({ error: "Internal Server Error" });
   });
+ 
+    app.get("/api/health", (req, res) => {
+      res.json({ status: "ok", message: "Express is working 🚀" });
+    });
+
 
   // Use process.env.PORT for Railway, fallback 3000
   const port = process.env.PORT || 3000;
-  app.listen(port, () => {
+  app.listen(port, "0.0.0.0", () => {
     console.log(` Server running on port ${port}`);
   });
 });

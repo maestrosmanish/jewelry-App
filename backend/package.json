@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "start": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "generate": "prisma generate --schema=prisma/schema.prisma"
+ "scripts": {
+    "dev": "nodemon index.js",
+    "generate": "prisma generate --schema=prisma/schema.prisma",
+    "start": "cross-env NODE_ENV=production node index.js"
   },
   "keywords": [],
   "author": "",
