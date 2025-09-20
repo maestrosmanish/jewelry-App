@@ -18,6 +18,19 @@ userRoute.post('/user/register', upload.none(), async (req, res) => {
   try {
     const { name, email, password, phone, role, status, address, city, state, pincode, country } = req.body;
 
+
+    if (role === "admin" || role === "superadmin") {
+      const existingAdmin = await prisma.user.findFirst({
+        where: { role: { in: ["admin", "superadmin"] } }
+      });
+
+      if (existingAdmin) {
+        return res.status(403).json({
+          error: "An admin already exists. Only one admin can be registered."
+        });
+      }
+    }
+
     const hashedPassword = await bcrypt.hash(password, 10);
 
     const createUser = await prisma.user.create({
@@ -26,8 +39,8 @@ userRoute.post('/user/register', upload.none(), async (req, res) => {
         email,
         password: hashedPassword,
         phone,
-        role: role || "user",
-        status: status === "true" || status === true,  // convert to boolean
+        role: role || "user", 
+        status: status === "true" || status === true,  
         address: address || "",
         city: city || "",
         state: state || "",
@@ -53,7 +66,7 @@ userRoute.post('/user/register', upload.none(), async (req, res) => {
 
    //user login
 userRoute.post('/user/login', upload.none() ,async (req,res)=>{
-   
+    console.log('OKKKK')
     const { email,password} = req.body; 
     console.log(req.body);
     const finduser = await prisma.user.findUnique({ where : {email:email}});
@@ -220,14 +233,15 @@ userRoute.put('/admin/users/:id/role', authMiddleware, isAdmin, async (req, res)
 
 // Toggle user status
 userRoute.put('/admin/users/:id/status', authMiddleware, isAdmin, async (req, res) => { 
-    console.log({status: req.body.isActive});
+    console.log(req.body.isActive);
   try {
     const { isActive } = req.body.isActive;
     const updatedUser = await prisma.user.update({
       where: { id: Number(req.params.id) },
       data: { status:isActive }
     });
-    res.json(updatedUser);
+    res.json(updatedUser); 
+    console.log(updatedUser)
   } catch (error) {
     res.status(500).json({ error: "Status update failed", details: error.message });
   }

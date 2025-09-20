@@ -86,7 +86,7 @@ const UserTable = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
     setLoading(true);
-    
+     // user login 
     try {
       const response = await fetch(`${baseUrl}/user/login`, {
         method: "POST",
@@ -116,7 +116,7 @@ const UserTable = () => {
   const handleVerifyOtp = async (e) => {
     e.preventDefault();
     setLoading(true);
-    
+    //otp verification 
     try {
       const response = await fetch(`${baseUrl}/user/verifyotp`, {
         method: "POST",
@@ -146,6 +146,7 @@ const UserTable = () => {
   };
 
   const handleStatusToggle = useCallback(async (userId, currentStatus) => {
+    //update user status
     try {
       const newStatus = !currentStatus; 
       console.log(userId, newStatus);
@@ -175,7 +176,9 @@ const UserTable = () => {
     }
   }, [baseUrl, token]);
 
-  const handleRoleChange = useCallback(async (userId, newRole) => {
+  const handleRoleChange = useCallback(async (userId, newRole) => { 
+
+    //update user role
     try {
       const response = await fetch(`${baseUrl}/admin/users/${userId}/role`, {
         method: "PUT",
@@ -202,7 +205,7 @@ const UserTable = () => {
       toast.error(error.message);
     }
   }, [baseUrl, token]);
-
+//delete user
   const handleDeleteUser = useCallback(async (userId) => {
     if (!window.confirm("Are you sure you want to delete this user?")) return;
     

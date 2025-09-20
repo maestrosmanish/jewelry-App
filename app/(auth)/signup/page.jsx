@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import { toast } from 'react-toastify';
+import Link from 'next/link';
 
 const AdminForm = () => {
   const [formData, setFormData] = useState({
@@ -160,7 +161,7 @@ const handleSubmit = async (e) => {
     setSubmitStatus('success');
     toast.success(data.message || 'Admin created successfully');
     console.log('Admin created successfully:', data);
-
+     window.location.href = "/signin";
     // Reset form
     setFormData({
       fullName: '',
@@ -483,7 +484,12 @@ const handleSubmit = async (e) => {
             </>
           )}
         </button>
-        
+        <p className="text-sm text-center text-gray-600 mt-4">
+            Do you have an account?{" "}
+            <Link href="/signin" className="text-blue-600 hover:underline">
+              SignIn here
+            </Link>
+            </p>
         {submitStatus === 'success' && (
           <div className="flex items-center p-3 mt-4 text-green-700 bg-green-100 rounded-lg">
             <i className="mr-2 fas fa-check-circle"></i>

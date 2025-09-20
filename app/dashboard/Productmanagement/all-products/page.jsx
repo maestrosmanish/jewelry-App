@@ -1,4 +1,5 @@
 'use client';
+import Image from "next/image";
 import React, { useState, useEffect } from "react";
 import { FaTrash, FaEdit, FaEye, FaSearch, FaTimes, FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { toast, ToastContainer } from 'react-toastify';
@@ -230,10 +231,10 @@ const ProductTable = () => {
                   <td className="px-6 py-4">
                     <div className="flex items-center">
                       {product.images?.[0] ? (
-                        <img 
-                          src={`${baseUrl}/${product.images[0]}`} 
-                          alt={product.name} 
-                          className="w-12 h-12 object-cover rounded-md mr-3" 
+                        <Image 
+                          src={`${baseUrl}/${product.images[0]}`.replace(/\\/g, '/')} 
+                          alt={product.name} width={40} height={40}
+                          className=" object-cover rounded-md mr-3" 
                         />
                       ) : (
                         <div className="w-12 h-12 bg-gray-200 rounded-md flex items-center justify-center mr-3">
@@ -422,10 +423,12 @@ const ProductTable = () => {
             <div className="grid gap-4">
               <div>
                 {viewProduct.images?.[0] ? (
-                  <img 
-                    src={`${baseUrl}/${viewProduct.images[0]}`} 
-                    alt={viewProduct.name} 
-                    className="w-full h-64 object-cover rounded-lg" 
+                <Image
+                    src={`${baseUrl}/${viewProduct.images[0]}`.replace(/\\/g, '/')}
+                    alt={viewProduct.name}
+                    width={200}
+                    height={200}
+                    className="rounded-lg object-cover"
                   />
                 ) : (
                   <div className="w-full h-64 bg-gray-200 rounded-lg flex items-center justify-center">

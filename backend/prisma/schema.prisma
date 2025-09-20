@@ -22,7 +22,7 @@ model User {
   password   String
   phone      String
   role       String    @default("user")
-  status       Boolean   @default(true)
+  status     Boolean   @default(true)
 
   
   address    String?
